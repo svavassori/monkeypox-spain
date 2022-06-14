@@ -1,0 +1,41 @@
+date,iso_code,state,cases
+2022-06-06,ES-AN,Andalucía,8
+2022-06-06,ES-CN,Canarias,17
+2022-06-06,ES-CT,Cataluña,15
+2022-06-06,ES-GA,Galicia,3
+2022-06-06,ES-NC,Navarra,1
+2022-06-06,ES-PV,País Vasco,6
+2022-06-06,ES-VC,Comunidad Valenciana,1
+2022-06-09,ES-AN,Andalucía,12
+2022-06-09,ES-AR,Aragón,3
+2022-06-09,ES-CM,Castilla-La Mancha,1
+2022-06-09,ES-CN,Canarias,19
+2022-06-09,ES-CT,Cataluña,16
+2022-06-09,ES-GA,Galicia,3
+2022-06-09,ES-IB,Islas Baleares,1
+2022-06-09,ES-MD,Madrid,194
+2022-06-09,ES-NC,Navarra,1
+2022-06-09,ES-PV,País Vasco,6
+2022-06-09,ES-VC,Comunidad Valenciana,3
+2022-06-10,ES-AN,Andalucía,12
+2022-06-10,ES-AR,Aragón,3
+2022-06-10,ES-CM,Castilla-La Mancha,1
+2022-06-10,ES-CN,Canarias,22
+2022-06-10,ES-CT,Cataluña,26
+2022-06-10,ES-GA,Galicia,3
+2022-06-10,ES-IB,Islas Baleares,1
+2022-06-10,ES-MD,Madrid,194
+2022-06-10,ES-NC,Navarra,1
+2022-06-10,ES-PV,País Vasco,9
+2022-06-10,ES-VC,Comunidad Valenciana,3
+2022-06-14,ES-AN,Andalucía,26
+2022-06-14,ES-AR,Aragón,3
+2022-06-14,ES-CM,Castilla-La Mancha,2
+2022-06-14,ES-CN,Canarias,23
+2022-06-14,ES-CT,Cataluña,47
+2022-06-14,ES-GA,Galicia,3
+2022-06-14,ES-IB,Islas Baleares,2
+2022-06-14,ES-MD,Madrid,194
+2022-06-14,ES-NC,Navarra,1
+2022-06-14,ES-PV,País Vasco,9
+2022-06-14,ES-VC,Comunidad Valenciana,3

@@ -1,0 +1,290 @@
+date,iso_code,state,cases
+2022-05-07,GB,United Kingdom,1
+2022-05-14,GB,United Kingdom,3
+2022-05-16,GB,United Kingdom,7
+2022-05-18,GB,United Kingdom,9
+2022-05-18,PT,Portugal,20
+2022-05-19,ES,Spain,30
+2022-05-24,AT,Austria,1
+2022-05-24,BE,Belgium,4
+2022-05-24,CH,Switzerland,1
+2022-05-24,DE,Germany,3
+2022-05-24,DK,Denmark,1
+2022-05-24,ES,Spain,51
+2022-05-24,FR,France,3
+2022-05-24,GB,United Kingdom,56
+2022-05-24,IT,Italy,4
+2022-05-24,NL,Netherlands,6
+2022-05-24,PT,Portugal,37
+2022-05-24,SE,Sweden,1
+2022-05-25,AE,United Arab Emirates,1
+2022-05-25,AR,Argentina,1
+2022-05-25,AT,Austria,1
+2022-05-25,AU,Australia,2
+2022-05-25,BE,Belgium,4
+2022-05-25,CA,Canada,15
+2022-05-25,CH,Switzerland,2
+2022-05-25,CZ,Czech Republic,1
+2022-05-25,DE,Germany,4
+2022-05-25,DK,Denmark,1
+2022-05-25,ES,Spain,59
+2022-05-25,FR,France,5
+2022-05-25,GB,United Kingdom,71
+2022-05-25,IL,Israel,2
+2022-05-25,IT,Italy,5
+2022-05-25,MA,Morocco,3
+2022-05-25,NL,Netherlands,6
+2022-05-25,PT,Portugal,37
+2022-05-25,SE,Sweden,1
+2022-05-25,SI,Slovenia,1
+2022-05-25,US,United States,8
+2022-05-26,AE,United Arab Emirates,1
+2022-05-26,AT,Austria,1
+2022-05-26,AU,Australia,2
+2022-05-26,BE,Belgium,4
+2022-05-26,CA,Canada,15
+2022-05-26,CH,Switzerland,2
+2022-05-26,CZ,Czech Republic,2
+2022-05-26,DE,Germany,5
+2022-05-26,DK,Denmark,1
+2022-05-26,ES,Spain,84
+2022-05-26,FR,France,5
+2022-05-26,GB,United Kingdom,78
+2022-05-26,IL,Israel,2
+2022-05-26,IT,Italy,5
+2022-05-26,NL,Netherlands,12
+2022-05-26,PT,Portugal,49
+2022-05-26,SE,Sweden,1
+2022-05-26,SI,Slovenia,2
+2022-05-26,US,United States,8
+2022-05-27,AE,United Arab Emirates,1
+2022-05-27,AT,Austria,1
+2022-05-27,AU,Australia,2
+2022-05-27,BE,Belgium,4
+2022-05-27,CA,Canada,15
+2022-05-27,CH,Switzerland,2
+2022-05-27,CZ,Czech Republic,4
+2022-05-27,DE,Germany,5
+2022-05-27,DK,Denmark,1
+2022-05-27,ES,Spain,98
+2022-05-27,FI,Finland,1
+2022-05-27,FR,France,5
+2022-05-27,GB,United Kingdom,90
+2022-05-27,IL,Israel,2
+2022-05-27,IT,Italy,12
+2022-05-27,NL,Netherlands,14
+2022-05-27,PT,Portugal,49
+2022-05-27,SE,Sweden,1
+2022-05-27,SI,Slovenia,2
+2022-05-27,US,United States,10
+2022-05-31,AE,United Arab Emirates,4
+2022-05-31,AT,Austria,1
+2022-05-31,AU,Australia,2
+2022-05-31,BE,Belgium,9
+2022-05-31,CA,Canada,26
+2022-05-31,CH,Switzerland,4
+2022-05-31,CZ,Czech Republic,5
+2022-05-31,DE,Germany,16
+2022-05-31,DK,Denmark,2
+2022-05-31,ES,Spain,135
+2022-05-31,FI,Finland,1
+2022-05-31,FR,France,16
+2022-05-31,GB,United Kingdom,183
+2022-05-31,IE,Ireland,1
+2022-05-31,IL,Israel,2
+2022-05-31,IT,Italy,14
+2022-05-31,MT,Malta,1
+2022-05-31,MX,Mexico,1
+2022-05-31,NL,Netherlands,29
+2022-05-31,PT,Portugal,96
+2022-05-31,SE,Sweden,2
+2022-05-31,SI,Slovenia,2
+2022-05-31,US,United States,15
+2022-06-01,AE,United Arab Emirates,4
+2022-06-01,AT,Austria,1
+2022-06-01,AU,Australia,2
+2022-06-01,BE,Belgium,10
+2022-06-01,CA,Canada,26
+2022-06-01,CH,Switzerland,4
+2022-06-01,CZ,Czech Republic,5
+2022-06-01,DE,Germany,21
+2022-06-01,DK,Denmark,2
+2022-06-01,ES,Spain,142
+2022-06-01,FI,Finland,1
+2022-06-01,FR,France,17
+2022-06-01,GB,United Kingdom,190
+2022-06-01,IE,Ireland,4
+2022-06-01,IL,Israel,2
+2022-06-01,IT,Italy,20
+2022-06-01,MT,Malta,1
+2022-06-01,MX,Mexico,1
+2022-06-01,NL,Netherlands,31
+2022-06-01,PT,Portugal,119
+2022-06-01,SE,Sweden,3
+2022-06-01,SI,Slovenia,3
+2022-06-01,US,United States,18
+2022-06-02,AE,United Arab Emirates,4
+2022-06-02,AT,Austria,1
+2022-06-02,AU,Australia,2
+2022-06-02,BE,Belgium,10
+2022-06-02,CA,Canada,26
+2022-06-02,CH,Switzerland,4
+2022-06-02,CZ,Czech Republic,5
+2022-06-02,DE,Germany,57
+2022-06-02,DK,Denmark,2
+2022-06-02,ES,Spain,156
+2022-06-02,FI,Finland,1
+2022-06-02,FR,France,17
+2022-06-02,GB,United Kingdom,207
+2022-06-02,HU,Hungary,1
+2022-06-02,IE,Ireland,4
+2022-06-02,IL,Israel,2
+2022-06-02,IT,Italy,20
+2022-06-02,MT,Malta,1
+2022-06-02,MX,Mexico,1
+2022-06-02,NL,Netherlands,31
+2022-06-02,NO,Norway,1
+2022-06-02,PT,Portugal,138
+2022-06-02,SE,Sweden,4
+2022-06-02,SI,Slovenia,3
+2022-06-02,US,United States,19
+2022-06-03,AE,United Arab Emirates,8
+2022-06-03,AT,Austria,1
+2022-06-03,AU,Australia,3
+2022-06-03,BE,Belgium,16
+2022-06-03,CA,Canada,58
+2022-06-03,CH,Switzerland,6
+2022-06-03,CZ,Czech Republic,6
+2022-06-03,DE,Germany,65
+2022-06-03,DK,Denmark,3
+2022-06-03,ES,Spain,186
+2022-06-03,FI,Finland,1
+2022-06-03,FR,France,33
+2022-06-03,GB,United Kingdom,225
+2022-06-03,GI,Gibraltar,1
+2022-06-03,HU,Hungary,1
+2022-06-03,IE,Ireland,6
+2022-06-03,IL,Israel,2
+2022-06-03,IT,Italy,22
+2022-06-03,MT,Malta,1
+2022-06-03,MX,Mexico,1
+2022-06-03,NL,Netherlands,41
+2022-06-03,NO,Norway,2
+2022-06-03,PT,Portugal,138
+2022-06-03,SE,Sweden,5
+2022-06-03,SI,Slovenia,6
+2022-06-03,US,United States,21
+2022-06-06,AE,United Arab Emirates,8
+2022-06-06,AR,Argentina,2
+2022-06-06,AT,Austria,1
+2022-06-06,AU,Australia,3
+2022-06-06,BE,Belgium,16
+2022-06-06,CA,Canada,77
+2022-06-06,CH,Switzerland,6
+2022-06-06,CZ,Czech Republic,6
+2022-06-06,DE,Germany,65
+2022-06-06,DK,Denmark,3
+2022-06-06,ES,Spain,198
+2022-06-06,FI,Finland,1
+2022-06-06,FR,France,33
+2022-06-06,GB,United Kingdom,225
+2022-06-06,GI,Gibraltar,1
+2022-06-06,HU,Hungary,1
+2022-06-06,IE,Ireland,6
+2022-06-06,IL,Israel,2
+2022-06-06,IT,Italy,22
+2022-06-06,MT,Malta,1
+2022-06-06,MX,Mexico,1
+2022-06-06,NL,Netherlands,41
+2022-06-06,NO,Norway,2
+2022-06-06,PT,Portugal,143
+2022-06-06,SE,Sweden,5
+2022-06-06,SI,Slovenia,6
+2022-06-06,US,United States,25
+2022-06-09,AE,United Arab Emirates,13
+2022-06-09,AR,Argentina,2
+2022-06-09,AT,Austria,1
+2022-06-09,AU,Australia,6
+2022-06-09,BE,Belgium,17
+2022-06-09,CA,Canada,81
+2022-06-09,CH,Switzerland,10
+2022-06-09,CZ,Czech Republic,6
+2022-06-09,DE,Germany,113
+2022-06-09,DK,Denmark,3
+2022-06-09,ES,Spain,259
+2022-06-09,FI,Finland,3
+2022-06-09,FR,France,66
+2022-06-09,GB,United Kingdom,302
+2022-06-09,HU,Hungary,1
+2022-06-09,IE,Ireland,6
+2022-06-09,IL,Israel,2
+2022-06-09,IT,Italy,29
+2022-06-09,LV,Latvia,2
+2022-06-09,MA,Morocco,1
+2022-06-09,MT,Malta,1
+2022-06-09,MX,Mexico,1
+2022-06-09,NL,Netherlands,54
+2022-06-09,NO,Norway,2
+2022-06-09,PT,Portugal,191
+2022-06-09,SE,Sweden,5
+2022-06-09,SI,Slovenia,6
+2022-06-09,US,United States,35
+2022-06-10,AE,United Arab Emirates,13
+2022-06-10,AR,Argentina,2
+2022-06-10,AT,Austria,1
+2022-06-10,AU,Australia,7
+2022-06-10,BE,Belgium,24
+2022-06-10,CA,Canada,110
+2022-06-10,CH,Switzerland,12
+2022-06-10,CZ,Czech Republic,6
+2022-06-10,DE,Germany,131
+2022-06-10,DK,Denmark,3
+2022-06-10,ES,Spain,275
+2022-06-10,FI,Finland,3
+2022-06-10,FR,France,66
+2022-06-10,GB,United Kingdom,366
+2022-06-10,GR,Greece,1
+2022-06-10,HU,Hungary,3
+2022-06-10,IE,Ireland,15
+2022-06-10,IL,Israel,3
+2022-06-10,IT,Italy,50
+2022-06-10,LV,Latvia,2
+2022-06-10,MA,Morocco,1
+2022-06-10,MT,Malta,1
+2022-06-10,MX,Mexico,1
+2022-06-10,NL,Netherlands,60
+2022-06-10,NO,Norway,2
+2022-06-10,PT,Portugal,209
+2022-06-10,SE,Sweden,5
+2022-06-10,SI,Slovenia,6
+2022-06-10,US,United States,45
+2022-06-14,AE,United Arab Emirates,13
+2022-06-14,AR,Argentina,2
+2022-06-14,AT,Austria,1
+2022-06-14,AU,Australia,7
+2022-06-14,BE,Belgium,24
+2022-06-14,CA,Canada,112
+2022-06-14,CH,Switzerland,12
+2022-06-14,CZ,Czech Republic,6
+2022-06-14,DE,Germany,189
+2022-06-14,DK,Denmark,3
+2022-06-14,ES,Spain,313
+2022-06-14,FI,Finland,3
+2022-06-14,FR,France,66
+2022-06-14,GB,United Kingdom,470
+2022-06-14,GR,Greece,1
+2022-06-14,HU,Hungary,3
+2022-06-14,IE,Ireland,15
+2022-06-14,IL,Israel,3
+2022-06-14,IT,Italy,50
+2022-06-14,LV,Latvia,2
+2022-06-14,MA,Morocco,1
+2022-06-14,MT,Malta,1
+2022-06-14,MX,Mexico,1
+2022-06-14,NL,Netherlands,60
+2022-06-14,NO,Norway,2
+2022-06-14,PL,Poland,1
+2022-06-14,PT,Portugal,209
+2022-06-14,SE,Sweden,5
+2022-06-14,SI,Slovenia,6
+2022-06-14,US,United States,65
