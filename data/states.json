@@ -1732,5 +1732,215 @@
     "iso_code": "US",
     "state": "United States",
     "cases": 65
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "AE",
+    "state": "United Arab Emirates",
+    "cases": 13
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "AR",
+    "state": "Argentina",
+    "cases": 5
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "AT",
+    "state": "Austria",
+    "cases": 11
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "AU",
+    "state": "Australia",
+    "cases": 7
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "BE",
+    "state": "Belgium",
+    "cases": 36
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "BR",
+    "state": "Brazil",
+    "cases": 3
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "CA",
+    "state": "Canada",
+    "cases": 159
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "CH",
+    "state": "Switzerland",
+    "cases": 20
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "CZ",
+    "state": "Czech Republic",
+    "cases": 6
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "DE",
+    "state": "Germany",
+    "cases": 305
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "DK",
+    "state": "Denmark",
+    "cases": 7
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "ES",
+    "state": "Spain",
+    "cases": 497
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "FI",
+    "state": "Finland",
+    "cases": 5
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "FR",
+    "state": "France",
+    "cases": 125
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "GB",
+    "state": "United Kingdom",
+    "cases": 524
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "GR",
+    "state": "Greece",
+    "cases": 2
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "HU",
+    "state": "Hungary",
+    "cases": 3
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "IE",
+    "state": "Ireland",
+    "cases": 15
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "IL",
+    "state": "Israel",
+    "cases": 4
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "IS",
+    "state": "Iceland",
+    "cases": 3
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "IT",
+    "state": "Italy",
+    "cases": 50
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "LU",
+    "state": "Luxembourg",
+    "cases": 1
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "LV",
+    "state": "Latvia",
+    "cases": 2
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "MA",
+    "state": "Morocco",
+    "cases": 1
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "MT",
+    "state": "Malta",
+    "cases": 2
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "MX",
+    "state": "Mexico",
+    "cases": 5
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "NL",
+    "state": "Netherlands",
+    "cases": 95
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "NO",
+    "state": "Norway",
+    "cases": 2
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "PL",
+    "state": "Poland",
+    "cases": 1
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "PT",
+    "state": "Portugal",
+    "cases": 241
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "RO",
+    "state": "Romania",
+    "cases": 2
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "SE",
+    "state": "Sweden",
+    "cases": 9
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "SI",
+    "state": "Slovenia",
+    "cases": 7
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "US",
+    "state": "United States",
+    "cases": 100
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "VE",
+    "state": "Venezuela",
+    "cases": 1
   }
 ]
