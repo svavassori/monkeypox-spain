@@ -72,6 +72,8 @@ s|Kazajistán|Kazakhstan|g
 s|Kenia|Kenya|g
 s|Kirguistán|Kyrgyzstan|g
 s|Letonia|Latvia|g
+s|Libano|Lebanon|g
+s|Líbano|Lebanon|g
 s|Liberia|Liberia|g
 s|Libia|Libya|g
 s|Lituania|Lithuania|g
