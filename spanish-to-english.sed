@@ -93,7 +93,6 @@ s|Montenegro|Montenegro|g
 s|Marruecos|Morocco|g
 s|Mozambique|Mozambique|g
 s|Namibia|Namibia|g
-s||nguage|g
 s|Nicaragua|Nicaragua|g
 s|Niger|Niger|g
 s|Corea del Norte|North Korea|g
