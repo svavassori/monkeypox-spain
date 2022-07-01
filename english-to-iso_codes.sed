@@ -122,6 +122,7 @@ s|Comoros|KM,Comoros|g
 s|Saint Kitts and Nevis|KN,Saint Kitts and Nevis|g
 s|Korea (Democratic People's Republic of)|KP,Korea (Democratic People's Republic of)|g
 s|Korea, Republic of|KR,Korea, Republic of|g
+s|South Korea|KR,South Korea|g
 s|Kuwait|KW,Kuwait|g
 s|Cayman Islands|KY,Cayman Islands|g
 s|Kazakhstan|KZ,Kazakhstan|g
@@ -228,6 +229,7 @@ s|Turkey|TR,Turkey|g
 s|Trinidad and Tobago|TT,Trinidad and Tobago|g
 s|Tuvalu|TV,Tuvalu|g
 s|Taiwan, Province of China|TW,Taiwan, Province of China|g
+s|Taiwan|TW,Taiwan|g
 s|Tanzania, United Republic of|TZ,Tanzania, United Republic of|g
 s|Ukraine|UA,Ukraine|g
 s|Uganda|UG,Uganda|g
