@@ -35,10 +35,11 @@ cases_ccaa="$(cat "${file_txt}" | grep "Los casos notificados" \
           -e 's/Baleares/Islas Baleares/g' \
           -e 's/Leon/León/g' \
           -e 's/Castilla \([y-] \)\?[lL]a Mancha/Castilla-La Mancha/g' \
+          -e 's/Comunidad Valencia/Comunidad Valenciana/g' \
     | sed --file=ccaa-to-iso.sed \
     | sed "s/^/${date},/g" \
     | sort )"
-cases_spain="$(cat "${file_txt}" | grep "En España" | sed 's/.\+se han notificado un total de \([0-9]\+\) casos.\+/\1/g')"
+cases_spain="$(cat "${file_txt}" | grep "En España" | sed 's/.\+se han notificado un total de \([0-9\.]\+\) casos.\+/\1/g' | tr -d '.')"
 other_europe="$(cat "${file_txt}" | grep "En el resto de Europa" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' | tr -d '.')"
 other_world="$(cat "${file_txt}"  | grep "En el resto del mundo" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' | tr -d '.')"
 
@@ -66,7 +67,7 @@ tail --lines=+2 "${file_daily_regions}" >> "data/regions.csv"
 tail --lines=+2 "${file_daily_states}" >> "data/states.csv"
 
 # create JSON files from cumulative CSV files
-cat "data/regions.csv" | mlr --icsv --ojson --jlistwrap cat | jq '.' > "data/regions.json"
-cat "data/states.csv"  | mlr --icsv --ojson --jlistwrap cat | jq '.' > "data/states.json"
+mlr --icsv --ojson --jlistwrap cat "data/regions.csv" | jq '.' > "data/regions.json"
+mlr --icsv --ojson --jlistwrap cat "data/states.csv"  | jq '.' > "data/states.json"
 
 rm "${file_txt}" "${file_daily_regions}" "${file_daily_states}"
