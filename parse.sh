@@ -26,11 +26,11 @@ cat "${file_txt}" \
 
 # extract cases for Autonomous Communities, Spain and rest of Europe
 cases_ccaa="$(cat "${file_txt}" | grep "Los casos notificados" \
-    | sed -e 's/.\+Comunidades Autónomas (//g' \
-          -e 's/)\.//g' \
-          -e 's/, ver Figura 1//g' \
-          -e 's/\([0-9]\+\) y /\1, /g' \
-          -e 's/, /\n/g' \
+    | sed -e 's/.\+Comunidades Autónomas: //g' \
+          -e 's/ ([^)]\+)//g' \
+          -e 's/, ver Figura 1\.//g' \
+          -e 's/, y /, /g' \
+          -e 's/, \?/\n/g' \
           -e 's/ \([0-9]\+\)/,\1/g' \
           -e 's/Baleares/Islas Baleares/g' \
           -e 's/Leon/León/g' \
@@ -40,8 +40,8 @@ cases_ccaa="$(cat "${file_txt}" | grep "Los casos notificados" \
     | sed "s/^/${date},/g" \
     | sort )"
 cases_spain="$(cat "${file_txt}" | grep "En España" | sed 's/.\+se han notificado un total de \([0-9\.]\+\) casos.\+/\1/g' | tr -d '.')"
-other_europe="$(cat "${file_txt}" | grep "En el resto de Europa" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' | tr -d '.')"
-other_world="$(cat "${file_txt}"  | grep "En el resto del mundo" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' | tr -d '.')"
+other_europe="$(cat "${file_txt}" | grep "En el resto de Europa" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ ([^)]\+)//g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' -e 's/\n\([A-Z]\)/\n1,\1/g' | tr -d '.')"
+other_world="$(cat "${file_txt}"  | grep "En el resto del mundo" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ ([^)]\+)//g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' -e 's/\n\([A-Z]\)/\n1,\1/g' | tr -d '.')"
 
 # put all data together as CSV
 # translates country names from Spanish to English
