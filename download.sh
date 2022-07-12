@@ -22,10 +22,10 @@ file_to_parse=$(echo "${links_pdfs}" | grep "Informe_de_situacion" | sed 's|docs
 file_svg=$(echo "${file_to_parse/.pdf/.svg}")
 
 # extract on-set date information from chart
-inkscape "${file_to_parse}" --export-type=svg --pdf-page=2
-python3 extract.py "${file_svg}" > "data/on-set_spain.csv"
-mlr --icsv --ojson --jlistwrap cat "data/on-set_spain.csv"  | jq '.' > "data/on-set_spain.json"
-rm "${file_svg}"
+#inkscape "${file_to_parse}" --export-type=svg --pdf-page=2
+#python3 extract.py "${file_svg}" > "data/on-set_spain.csv"
+#mlr --icsv --ojson --jlistwrap cat "data/on-set_spain.csv"  | jq '.' > "data/on-set_spain.json"
+#rm "${file_svg}"
 
 # parse PDF text
 ./parse.sh "${file_to_parse}"

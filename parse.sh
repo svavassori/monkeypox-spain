@@ -28,27 +28,28 @@ cat "${file_txt}" \
 cases_ccaa="$(cat "${file_txt}" | grep "Los casos notificados" \
     | sed -e 's/.\+Comunidades Autónomas: //g' \
           -e 's/ ([^)]\+)//g' \
-          -e 's/, ver Figura 1\.//g' \
+          -e 's/, ver Figura 1//g' \
           -e 's/, y /, /g' \
+          -e 's/\([0-9]\+\) y /\1, /g' \
           -e 's/, \?/\n/g' \
           -e 's/ \([0-9]\+\)/,\1/g' \
           -e 's/Baleares/Islas Baleares/g' \
           -e 's/Leon/León/g' \
           -e 's/Castilla \([y-] \)\?[lL]a Mancha/Castilla-La Mancha/g' \
           -e 's/Comunidad Valencia/Comunidad Valenciana/g' \
+          -e 's/\.//g' \
     | sed --file=ccaa-to-iso.sed \
     | sed "s/^/${date},/g" \
     | sort )"
 cases_spain="$(cat "${file_txt}" | grep "En España" | sed 's/.\+se han notificado un total de \([0-9\.]\+\) casos.\+/\1/g' | tr -d '.')"
-other_europe="$(cat "${file_txt}" | grep "En el resto de Europa" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ ([^)]\+)//g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' -e 's/\n\([A-Z]\)/\n1,\1/g' | tr -d '.')"
-other_world="$(cat "${file_txt}"  | grep "En el resto del mundo" | sed -e 's/.\+casos confirmados de MPX: //g' -e 's/ ([^)]\+)//g' -e 's/ \?, /\n/g' -e 's/ en /,/g' -e 's/ y /\n/g' -e 's/\n\([A-Z]\)/\n1,\1/g' | tr -d '.')"
+other_europe="$(cat "${file_txt}" | grep "En el resto de Europa" | sed -e 's/.\+casos confirmados de MPX.*, siendo //g' -e 's/ los países más afectados.*$//g' -e 's/[()]//g' -e 's/ \?, /\n/g' -e 's/ [ey] /\n/g' -e 's/ \([\.0-9]\)/,\1/g' | tr -d '.')"
+other_world="$(cat "${file_txt}"  | grep "En el resto del mundo" | sed -e 's/.\+casos confirmados de MPX.*, siendo //g' -e 's/ los países más afectados.*$//g' -e 's/[()]//g' -e 's/ \?, /\n/g' -e 's/ [ey] /\n/g' -e 's/ \([\.0-9]\)/,\1/g' | tr -d '.')"
 
 # put all data together as CSV
 # translates country names from Spanish to English
 # adds ISO codes (alpha-2)
 # adds file's date
-world="$(echo -e "${cases_spain},España\n${other_europe}\n${other_world}" \
-    | awk -F ',' '{print $2","$1}' \
+world="$(echo -e "España,${cases_spain}\n${other_europe}\n${other_world}" \
     | sed 's/EEUU/Estados Unidos/g' \
     | sed --file=spanish-to-english.sed \
     | sed --file=english-to-iso_codes.sed \

@@ -868,5 +868,101 @@
     "iso_code": "ES-VC",
     "state": "Comunidad Valenciana",
     "cases": 49
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-AN",
+    "state": "Andalucía",
+    "cases": 231
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-AR",
+    "state": "Aragón",
+    "cases": 29
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-AS",
+    "state": "Asturias",
+    "cases": 18
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-CB",
+    "state": "Cantabria",
+    "cases": 4
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-CL",
+    "state": "Castilla y León",
+    "cases": 8
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-CM",
+    "state": "Castilla-La Mancha",
+    "cases": 12
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-CN",
+    "state": "Canarias",
+    "cases": 77
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-CT",
+    "state": "Cataluña",
+    "cases": 681
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-EX",
+    "state": "Extremadura",
+    "cases": 6
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-GA",
+    "state": "Galicia",
+    "cases": 16
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-IB",
+    "state": "Islas Baleares",
+    "cases": 43
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-MC",
+    "state": "Murcia",
+    "cases": 5
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-MD",
+    "state": "Madrid",
+    "cases": 1211
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-NC",
+    "state": "Navarra",
+    "cases": 6
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-PV",
+    "state": "País Vasco",
+    "cases": 34
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES-VC",
+    "state": "Comunidad Valenciana",
+    "cases": 66
   }
 ]
