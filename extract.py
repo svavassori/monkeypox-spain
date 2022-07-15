@@ -1,165 +1,134 @@
-# This script extracts the dates of Monkeypox onset chart from the given svg file
+# This script extracts the dates of Monkeypox onset chart from the given PNG file
 # passed as parameter and writes them to stdout in a CSV format (date and cases).
-#
-# It expects only one chart with blue square (i.e. fill:#2f75b5;) to be present in the SVG file.
-# It uses svgpathtools 1.5.1, so that dependency must be available.
-#
 
-from collections import namedtuple
-from functools import reduce
-from itertools import groupby
+from datetime import datetime, timedelta
+from math import trunc
 import sys
-from typing import NamedTuple
-from svgpathtools import svg2paths
-from xml.dom.minidom import Node, parse
+from PIL import Image
+from typing import Final
 
-Bin=namedtuple("Bin", "date x delta")
-Matrix=namedtuple("Matrix", "x y text")
+BLACK: Final[int] = 0
+GRAY:  Final[int] = 103
+WHITE: Final[int] = 255
 
-def get_blue_paths(filename):
-    paths, attributes = svg2paths(filename)
-    blue_paths = []
-    for index, attr in enumerate(attributes):
-        style = attr.get("style", "")
-        if "fill:#2f75b5;" in style:
-            blue_paths.append(paths[index])
-    return blue_paths
-
-def paths_to_bin(path, bin_size):
-    # width and height should be always >= 1 since the minimum is a single square.
-    hline = path[0]
-    vline = path[3]
-    x = hline.start.real
-    dh = hline.length()
-    dv = vline.length()
-    base_bin = int(x / bin_size)
-    width = int(dh / bin_size)
-    height = round(dv / bin_size) # sometimes is slightly less than a multiple of binSize
-    return [ Bin(None, i, height) for i in range(base_bin, base_bin + width) ]
-
-def find_blue_path_node(document):
-    for node in document.getElementsByTagName("path"):
-        if "fill:#2f75b5;" in node.getAttribute("style"):
-            return node
-    return None
-
-def find_parent(node):
-    stack = []
-    while (node.nodeType != Node.DOCUMENT_NODE):
-        stack.append(node)
-        node = node.parentNode
-    return stack[-3]
-
-def extract_text_nodes(parent, ymin):
-    text_nodes = filter(lambda d: "No incluidos" not in d.text,
-                 filter(lambda d: (d.y < ymin),
-                 map(parse_text_node, parent.getElementsByTagName("text"))))
-    return splitter(text_nodes, lambda m: m.text.isnumeric())
-
-def parse_text_node(node):
-    fields = node.getAttribute("transform").removeprefix("matrix(").removesuffix(")").split(",")
-    x = float(fields[-2])
-    y = float(fields[-1])
-    text = node.firstChild.firstChild.wholeText.strip()
-    return Matrix(x=x, y=y, text=text)
-
-def splitter(data, predicate):
-    yes, no = [], []
-    for d in data:
-        if predicate(d):
-            yes.append(d)
-        else:
-            no.append(d)
-    return (yes, no)
-        
-def group_days(day_list):
-    first_day_index = [ index for index, day in enumerate(day_list) if day.text == "1" ]
-    first_day_index.append(len(day_list))
-    grouped = []
-    start_index = 0
-    for i in first_day_index:
-        grouped.append(day_list[start_index:i])
-        start_index = i
-    return grouped
-
-def median_bin_size(day_list):
-    bin_size = [ day_list[i].x - day_list[i - 1].x for i in range(1, len(day_list)) ]
-    bin_size.sort()
-    return bin_size[int(len(bin_size) / 2)]
-
-# It is ridiculous that Python3 doesn't handles locales internally
-# and it depends on the ones installed in the platform, WTF?
-spanish_month_to_number = {
-    "Enero":      "01",
-    "Febrero":    "02",
-    "Marzo":      "03",
-    "Abril":      "04",
-    "Mayo":       "05",
-    "Junio":      "06",
-    "Julio":      "07",
-    "Agosto":     "08",
-    "Septiembre": "09",
-    "Octubre":    "10",
-    "Noviembre":  "11",
-    "Diciembre":  "12"
-}
-
-def bin_days(months, days_by_month, bin_size):
-    days_binned = []
-    for month_year, days_in_month in zip(months, days_by_month):
-        (month, year) = month_year.split(" ")
-        num_month = spanish_month_to_number[month]
-        days_binned.extend(merge_days(days_in_month, num_month, year, bin_size))
-    return days_binned
-
-def merge_days(days_in_month, month, year, bin_size):
-    day_binned = []
-    for day in days_in_month:
-        local_date = f"{year}-{month}-{day.text}"
-        bin = int(day.x / bin_size)
-        day_binned.append(Bin(local_date, bin, 0))
-    return day_binned
+def median_square_size(square_list):
+    square_sizes = [ x2 - x1 for (x1, x2) in square_list ]
+    square_sizes.sort()
+    return square_sizes[int(len(square_sizes) / 2)]
 
 def extract(filename):
-    blue_paths = get_blue_paths(filename)
-    ymin_squares = min(map(lambda p: p.start.imag, blue_paths))
+    with Image.open(filename) as im:
+        im = im.convert("L")
+        x_axis = find_X_axis(im)
+        x_left, x_right = find_X_bounds(im, x_axis)
+        # end values are excluded
+        im_cropped = im.crop((x_left, 0, x_right + 1, x_axis + 1))
+        maxX, maxY = im_cropped.size
+        squares = parse_alined_squares(im_cropped, range(maxX), maxY - 2, lambda x, y: (x, y))
+        square_size = median_square_size(squares)
+        squares = fill_with_white_squares(squares, square_size)
+        values = count_values(squares, im_cropped, square_size)
+        bins = to_days(values)
+        print_bins_as_csv(bins)
 
-    with parse(filename) as document:
-        parent = find_parent(find_blue_path_node(document))
-        (day_list, month_list) = extract_text_nodes(parent, ymin_squares)
+def find_X_axis(image):
+    _, maxY = image.size
+    for y in range(maxY - 1, -1, -1):
+        line_is_black = True
+        for x in range(100, 200):
+            color = image.getpixel((x, y))
+            if (color != BLACK):
+                line_is_black = False
+                break
+        if line_is_black:
+            return y
+    raise Exception("Unable to find black line in image")
 
-    month_list.sort(key=lambda m: m.x)
-    months = list(map(lambda m: m.text, month_list))
-    days_by_month = group_days(day_list)
-    # removes April 31: it doesn't exist
-    days_by_month[0].pop()
-    bin_size = median_bin_size(day_list)
-    days_binned = bin_days(months, days_by_month, bin_size)
-    for path in blue_paths:
-        days_binned.extend(paths_to_bin(path, bin_size))
+def find_X_bounds(image, maxY):
+    maxX, _ = image.size
+    y = maxY - 1
+    # widen by 1 pixel for the border around
+    x_left = find_gray(image, range(maxX), y) - 1
+    x_right = find_gray(image, reversed(range(maxX)), y) + 1
+    return x_left, x_right
 
-    bins = merge_bins_list(days_binned)
-    print_bins_as_csv(bins)
+def find_gray(image, rang, y):
+    for x in rang:
+        color = image.getpixel((x, y))
+        if (color == GRAY):
+            return x
 
-def merge_bins_list(days_binned):
-    by_x = lambda b: b.x
-    days_binned.sort(key=by_x)
-    return [ reduce(merge_bins, group) for _, group in groupby(days_binned, key=by_x) ]
+def parse_alined_squares(image, outer_range, line, to_tuple, square_size = 11):
+    # square_size default value is based on observation, needed to uniform
+    # horizontal scan and vertical.
+    previous = WHITE
+    startX = 0
+    squares = []
+    for x in outer_range:
+        color = image.getpixel(to_tuple(x, line))
+        white_distance = WHITE - color
+        gray_distance = abs(GRAY - color)
+        if (gray_distance < white_distance):
+            if (previous == WHITE):
+                # start of the square
+                startX = x
+                previous = GRAY
+        elif (previous == GRAY):
+            # end of a square
+            # detect multiple squares packed together
+            previous = WHITE
+            (x1, x2) = to_tuple(startX, x)
+            n_squares = round((x2 - x1) / square_size)
+            for n in range(n_squares):
+                xt = x1 + square_size
+                squares.append((x1, xt))
+                x2 = xt
+    return squares
 
-def merge_bins(bin1, bin2):
-    local_date = bin1.date if bin1.date is not None else bin2.date
-    return Bin(local_date, bin1.x, bin1.delta + bin2.delta)
+def fill_with_white_squares(squares, square_size):
+    filled = []
+    x_left = 0
+    for (x0, x1) in squares:
+        n_white_squares = trunc((x0 - x_left) / square_size)
+        for n in range(n_white_squares):
+            x_right = x_left + square_size
+            filled.append((x_left, x_right))
+            x_left = x_right
+        x_left = x1
+        filled.append((x0, x1))
+    return filled
+
+def count_values(squares, image, square_size):
+    _, maxY = image.size
+    values = []
+    for (x1, x2) in squares:
+        line = round((x2 + x1) / 2)
+        column = parse_alined_squares(image, reversed(range(maxY - 1)), line, lambda x, y: (y, x), square_size)
+        values.append(len(column))
+    return values
+
+def to_days(values):
+    # first two non-zero value are at April 26 and 27, then there is April "31" to skip...
+    days = []
+    for i in range(5):
+        days.append((datetime(2022, 4, i + 26), values[i]))
+    current = datetime(2022, 5, 1)
+    for value in values[6:]:
+        days.append((current, value))
+        current += timedelta(days=1)
+    return days
+
 
 def print_bins_as_csv(bins):
     print("date,cases")
-    for bin in bins:
-        print(bin.date, bin.delta, sep=",")
+    for date, value in bins:
+        print(date.strftime("%Y-%m-%d"), value, sep=",")
 
 def main():
     if len(sys.argv) == 2:
         extract(sys.argv[1])
     else:
-        sys.exit("Usage: python3 " + sys.argv[0] + " input_file.svg")
+        sys.exit("Usage: python3 " + sys.argv[0] + " input_file.png")
 
 if __name__ == "__main__":
     main()
