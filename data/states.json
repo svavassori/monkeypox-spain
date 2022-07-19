@@ -3706,5 +3706,47 @@
     "iso_code": "US",
     "state": "United States",
     "cases": 1470
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "BR",
+    "state": "Brazil",
+    "cases": 310
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "CA",
+    "state": "Canada",
+    "cases": 539
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "DE",
+    "state": "Germany",
+    "cases": 1924
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "ES",
+    "state": "Spain",
+    "cases": 3125
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "FR",
+    "state": "France",
+    "cases": 912
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "GB",
+    "state": "United Kingdom",
+    "cases": 1856
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "US",
+    "state": "United States",
+    "cases": 1980
   }
 ]

@@ -26,7 +26,7 @@ cat "${file_txt}" \
 
 # extract cases for Autonomous Communities, Spain and rest of Europe
 cases_ccaa="$(cat "${file_txt}" | grep "Los casos notificados" \
-    | sed -e 's/.\+Comunidades Autónomas: //g' \
+    | sed -e 's/.\+[Cc]omunidades [Aa]utónomas: //g' \
           -e 's/ ([^)]\+)//g' \
           -e 's/, ver Figura 1//g' \
           -e 's/, y /, /g' \
