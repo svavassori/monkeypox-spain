@@ -37,6 +37,7 @@ cases_ccaa="$(cat "${file_txt}" | grep "Los casos notificados" \
           -e 's/Leon/León/g' \
           -e 's/Castilla \([y-] \)\?[lL]a Mancha/Castilla-La Mancha/g' \
           -e 's/Comunidad Valencia/Comunidad Valenciana/g' \
+          -e 's/la Rioja/La Rioja/g' \
           -e 's/\.//g' \
     | sed --file=ccaa-to-iso.sed \
     | sed "s/^/${date},/g" \
