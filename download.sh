@@ -4,6 +4,7 @@
 base_url="https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/alertaMonkeypox"
 
 links_pdfs=$(wget --no-verbose --output-document=- "${base_url}/home.htm" | grep --only-matching '"docs/[^"]\+\.pdf"' | tr -d '"')
+guides_pdfs=($(wget --no-verbose --output-document=- "${base_url}/guiaDeManejo.htm" | grep --only-matching '"docs/[^"]\+\.pdf"' | tr -d '"'))
 
 opts="--no-verbose --timestamping --directory-prefix="
 
@@ -11,11 +12,17 @@ wget ${opts}documentos/evaluación-rápida-riesgo "${base_url}"/$(echo "${links_
 wget ${opts}documentos/informes "${base_url}"/$(echo "${links_pdfs}" | grep "Informe_de_situacion")
 wget ${opts}documentos/protocolo "${base_url}"/$(echo "${links_pdfs}" | grep "ProtocoloMPX")
 
-# download remaining documents
+# download remaining homepage's documents
 other_files=($(echo "${links_pdfs}" | grep --invert-match "ERR_Monkeypox_\|Informe_de_situacion\|ProtocoloMPX"))
 for file in "${other_files[@]}"
 do
 	wget ${opts}documentos "${base_url}"/${file}
+done
+
+# download guides
+for file in "${guides_pdfs[@]}"
+do
+	wget ${opts}guías "${base_url}"/${file}
 done
 
 file_to_parse="$(realpath $(echo "${links_pdfs}" | grep "Informe_de_situacion" | sed 's|docs/|documentos/informes/|g'))"
