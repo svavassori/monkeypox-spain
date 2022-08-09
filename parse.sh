@@ -44,7 +44,7 @@ cases_ccaa="$(cat "${file_txt}" | grep "Los casos notificados" \
     | sort )"
 cases_spain="$(cat "${file_txt}" | grep "En España" | sed 's/.\+se han notificado un total de \([0-9\.]\+\) casos.\+/\1/g' | tr -d '.')"
 other_europe="$(cat "${file_txt}" | grep "En el resto de Europa" | sed -e 's/.\+casos confirmados de MPX.*, siendo //g' -e 's/ los países más afectados.*$//g' -e 's/[()]//g' -e 's/ \?, /\n/g' -e 's/ [ey] /\n/g' -e 's/ \([\.0-9]\)/,\1/g' | tr -d '.')"
-other_world="$(cat "${file_txt}"  | grep "En el resto del mundo" | sed -e 's/.\+casos confirmados de MPX.*, siendo //g' -e 's/ los países más afectados.*$//g' -e 's/[()]//g' -e 's/ \?, /\n/g' -e 's/ [ey] /\n/g' -e 's/ \([\.0-9]\)/,\1/g' | tr -d '.')"
+other_world="$(cat "${file_txt}"  | grep "En el resto del mundo" | sed -e 's/.\+casos confirmados de MPX.*, siendo //g' -e 's/ los países más afectados.*$//g' -e 's/ los países con mayor número de casos.*$//g' -e 's/[()]//g' -e 's/ \?, /\n/g' -e 's/ [ey] /\n/g' -e 's/ \([\.0-9]\)/,\1/g' | tr -d '.')"
 
 # put all data together as CSV
 # translates country names from Spanish to English
