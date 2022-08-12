@@ -1564,5 +1564,11 @@
     "iso_code": "ES-VC",
     "state": "Comunidad Valencianana",
     "cases": 236
+  },
+  {
+    "date": "2022-08-12",
+    "iso_code": "Los casos notificados proceden de",
+    "state": "17 Comunidades Autónomas ver figura",
+    "cases": 1
   }
 ]
