@@ -5464,5 +5464,71 @@
     "iso_code": "US",
     "state": "United States",
     "cases": 28947
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "BR",
+    "state": "Brazil",
+    "cases": 9876
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "CO",
+    "state": "Colombia",
+    "cases": 3719
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "DE",
+    "state": "Germany",
+    "cases": 3671
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "ES",
+    "state": "Spain",
+    "cases": 7404
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "FR",
+    "state": "France",
+    "cases": 4104
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "GB",
+    "state": "United Kingdom",
+    "cases": 3561
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "MX",
+    "state": "Mexico",
+    "cases": 3145
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "NL",
+    "state": "Netherlands",
+    "cases": 1247
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "PE",
+    "state": "Peru",
+    "cases": 3803
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "PT",
+    "state": "Portugal",
+    "cases": 948
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "US",
+    "state": "United States",
+    "cases": 29169
   }
 ]
