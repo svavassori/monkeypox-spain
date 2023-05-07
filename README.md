@@ -5,6 +5,7 @@ This repository contains Monkeypox cases data offered from the Spanish Ministry 
 ## Data Sources
 
 * [Ministerio de Sanidad](https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/alertaMonkeypox/home.htm)
+* [Insituto de Salud Carlos III](https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Paginas/Resultados_Vigilancia_Viruela-del-mono.aspx)
 
 ## Data Format
 
