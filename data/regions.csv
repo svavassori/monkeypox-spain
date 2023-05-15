@@ -175,7 +175,7 @@ date,iso_code,state,cases
 2022-07-15,ES-MD,Madrid,1211
 2022-07-15,ES-NC,Navarra,7
 2022-07-15,ES-PV,País Vasco,44
-2022-07-15,ES-VC,Comunidad Valencianana,86
+2022-07-15,ES-VC,Comunidad Valenciana,86
 2022-07-19,ES-AN,Andalucía,333
 2022-07-19,ES-AR,Aragón,37
 2022-07-19,ES-AS,Asturias,23
@@ -191,7 +191,7 @@ date,iso_code,state,cases
 2022-07-19,ES-MD,Madrid,1378
 2022-07-19,ES-NC,Navarra,8
 2022-07-19,ES-PV,País Vasco,56
-2022-07-19,ES-VC,Comunidad Valencianana,107
+2022-07-19,ES-VC,Comunidad Valenciana,107
 2022-07-26,ES-AN,Andalucía,440
 2022-07-26,ES-AR,Aragón,44
 2022-07-26,ES-AS,Asturias,29
@@ -208,7 +208,7 @@ date,iso_code,state,cases
 2022-07-26,ES-NC,Navarra,8
 2022-07-26,ES-PV,País Vasco,72
 2022-07-26,ES-RI,La Rioja,1
-2022-07-26,ES-VC,Comunidad Valencianana,162
+2022-07-26,ES-VC,Comunidad Valenciana,162
 2022-07-29,ES-AN,Andalucía,498
 2022-07-29,ES-AR,Aragón,45
 2022-07-29,ES-AS,Asturias,36
@@ -225,7 +225,7 @@ date,iso_code,state,cases
 2022-07-29,ES-NC,Navarra,8
 2022-07-29,ES-PV,País Vasco,98
 2022-07-29,ES-RI,La Rioja,2
-2022-07-29,ES-VC,Comunidad Valencianana,213
+2022-07-29,ES-VC,Comunidad Valenciana,213
 2022-07-30,ES-AN,Andalucía,498
 2022-07-30,ES-AR,Aragón,45
 2022-07-30,ES-AS,Asturias,36
@@ -242,7 +242,7 @@ date,iso_code,state,cases
 2022-07-30,ES-NC,Navarra,8
 2022-07-30,ES-PV,País Vasco,98
 2022-07-30,ES-RI,La Rioja,2
-2022-07-30,ES-VC,Comunidad Valencianana,213
+2022-07-30,ES-VC,Comunidad Valenciana,213
 2022-08-02,ES-AN,Andalucía,545
 2022-08-02,ES-AR,Aragón,45
 2022-08-02,ES-AS,Asturias,41
@@ -259,36 +259,615 @@ date,iso_code,state,cases
 2022-08-02,ES-NC,Navarra,11
 2022-08-02,ES-PV,País Vasco,115
 2022-08-02,ES-RI,La Rioja,3
-2022-08-02,ES-VC,Comunidad Valencianana,236
-2022-08-12,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-08-16,Los casos notificados proceden de,17 comunidades autónomas
-2022-08-19,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-08-23,Los casos notificados proceden de,17 comunidades autónomas
-2022-08-26,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-08-30,Los casos notificados proceden de,17 comunidades autónomas
-2022-09-02,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-09-06,Los casos notificados proceden de,17 comunidades autónomas
-2022-09-09,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-09-13,Los casos notificados proceden de,17 comunidades autónomas
-2022-09-16,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-09-20,Los casos notificados proceden de,17 comunidades autónomas
-2022-09-23,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-09-27,Los casos notificados proceden de,17 comunidades autónomas
-2022-09-30,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-10-04,Los casos notificados proceden de,17 comunidades autónomas
-2022-10-07,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-11-02,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-11-10,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-11-15,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-11-22,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-11-29,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-12-07,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-12-13,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1
-2022-12-20,Los casos notificados proceden de,17 Comunidades Autónomas ver figura,1* De los casos notificados en SiViES
-2022-12-20,un total de,7329 son hombres y,166 son mujeres
-2022-12-27,Los casos notificados proceden de,17 Comunidades Autónomas ver tabla,1
-
-2022-12-27,Los casos notificados proceden de,17 Comunidades Autónomas ver tabla,1
-
-
-2022-12-27,Los casos notificados proceden de,17 Comunidades Autónomas ver tabla,1
+2022-08-05,ES-AN,Andalucía,601
+2022-08-05,ES-AR,Aragón,47
+2022-08-05,ES-AS,Asturias,47
+2022-08-05,ES-CB,Cantabria,18
+2022-08-05,ES-CL,Castilla y León,41
+2022-08-05,ES-CM,Castilla-La Mancha,36
+2022-08-05,ES-CN,Canarias,118
+2022-08-05,ES-CT,Cataluña,1558
+2022-08-05,ES-EX,Extremadura,21
+2022-08-05,ES-GA,Galicia,71
+2022-08-05,ES-IB,Islas Baleares,111
+2022-08-05,ES-MC,Murcia,26
+2022-08-05,ES-MD,Madrid,1817
+2022-08-05,ES-NC,Navarra,12
+2022-08-05,ES-PV,País Vasco,130
+2022-08-05,ES-RI,La Rioja,4
+2022-08-05,ES-VC,Comunidad Valenciana,284
+2022-08-09,ES-AN,Andalucía,632
+2022-08-09,ES-AR,Aragón,50
+2022-08-09,ES-AS,Asturias,49
+2022-08-09,ES-CB,Cantabria,19
+2022-08-09,ES-CL,Castilla y León,48
+2022-08-09,ES-CM,Castilla-La Mancha,40
+2022-08-09,ES-CN,Canarias,126
+2022-08-09,ES-CT,Cataluña,1636
+2022-08-09,ES-EX,Extremadura,21
+2022-08-09,ES-GA,Galicia,78
+2022-08-09,ES-IB,Islas Baleares,134
+2022-08-09,ES-MC,Murcia,31
+2022-08-09,ES-MD,Madrid,1817
+2022-08-09,ES-NC,Navarra,13
+2022-08-09,ES-PV,País Vasco,153
+2022-08-09,ES-RI,La Rioja,4
+2022-08-09,ES-VC,Comunidad Valenciana,311
+2022-08-12,ES-AN,Andalucía,674
+2022-08-12,ES-AR,Aragón,53
+2022-08-12,ES-AS,Asturias,53
+2022-08-12,ES-CB,Cantabria,27
+2022-08-12,ES-CL,Castilla y León,54
+2022-08-12,ES-CM,Castilla-La Mancha,42
+2022-08-12,ES-CN,Canarias,136
+2022-08-12,ES-CT,Cataluña,1782
+2022-08-12,ES-EX,Extremadura,22
+2022-08-12,ES-GA,Galicia,83
+2022-08-12,ES-IB,Islas Baleares,134
+2022-08-12,ES-MC,Murcia,33
+2022-08-12,ES-MD,Madrid,1885
+2022-08-12,ES-NC,Navarra,13
+2022-08-12,ES-PV,País Vasco,162
+2022-08-12,ES-RI,La Rioja,4
+2022-08-12,ES-VC,Comunidad Valenciana,353
+2022-08-16,ES-AN,Andalucía,674
+2022-08-16,ES-AR,Aragón,56
+2022-08-16,ES-AS,Asturias,55
+2022-08-16,ES-CB,Cantabria,27
+2022-08-16,ES-CL,Castilla y León,55
+2022-08-16,ES-CM,Castilla-La Mancha,42
+2022-08-16,ES-CN,Canarias,137
+2022-08-16,ES-CT,Cataluña,1782
+2022-08-16,ES-EX,Extremadura,25
+2022-08-16,ES-GA,Galicia,87
+2022-08-16,ES-IB,Islas Baleares,156
+2022-08-16,ES-MC,Murcia,36
+2022-08-16,ES-MD,Madrid,1885
+2022-08-16,ES-NC,Navarra,13
+2022-08-16,ES-PV,País Vasco,172
+2022-08-16,ES-RI,La Rioja,4
+2022-08-16,ES-VC,Comunidad Valenciana,377
+2022-08-19,ES-AN,Andalucía,739
+2022-08-19,ES-AR,Aragón,61
+2022-08-19,ES-AS,Asturias,55
+2022-08-19,ES-CB,Cantabria,29
+2022-08-19,ES-CL,Castilla y León,57
+2022-08-19,ES-CM,Castilla-La Mancha,44
+2022-08-19,ES-CN,Canarias,144
+2022-08-19,ES-CT,Cataluña,1825
+2022-08-19,ES-EX,Extremadura,30
+2022-08-19,ES-GA,Galicia,95
+2022-08-19,ES-IB,Islas Baleares,169
+2022-08-19,ES-MC,Murcia,42
+2022-08-19,ES-MD,Madrid,2216
+2022-08-19,ES-NC,Navarra,16
+2022-08-19,ES-PV,País Vasco,188
+2022-08-19,ES-RI,La Rioja,4
+2022-08-19,ES-VC,Comunidad Valenciana,405
+2022-08-23,ES-AN,Andalucía,758
+2022-08-23,ES-AR,Aragón,61
+2022-08-23,ES-AS,Asturias,55
+2022-08-23,ES-CB,Cantabria,30
+2022-08-23,ES-CL,Castilla y León,64
+2022-08-23,ES-CM,Castilla-La Mancha,49
+2022-08-23,ES-CN,Canarias,148
+2022-08-23,ES-CT,Cataluña,1878
+2022-08-23,ES-EX,Extremadura,31
+2022-08-23,ES-GA,Galicia,103
+2022-08-23,ES-IB,Islas Baleares,174
+2022-08-23,ES-MC,Murcia,44
+2022-08-23,ES-MD,Madrid,2249
+2022-08-23,ES-NC,Navarra,16
+2022-08-23,ES-PV,País Vasco,204
+2022-08-23,ES-RI,La Rioja,4
+2022-08-23,ES-VC,Comunidad Valenciana,416
+2022-08-26,ES-AN,Andalucía,786
+2022-08-26,ES-AR,Aragón,64
+2022-08-26,ES-AS,Asturias,55
+2022-08-26,ES-CB,Cantabria,30
+2022-08-26,ES-CL,Castilla y León,65
+2022-08-26,ES-CM,Castilla-La Mancha,52
+2022-08-26,ES-CN,Canarias,153
+2022-08-26,ES-CT,Cataluña,1921
+2022-08-26,ES-EX,Extremadura,31
+2022-08-26,ES-GA,Galicia,107
+2022-08-26,ES-IB,Islas Baleares,189
+2022-08-26,ES-MC,Murcia,48
+2022-08-26,ES-MD,Madrid,2297
+2022-08-26,ES-NC,Navarra,16
+2022-08-26,ES-PV,País Vasco,210
+2022-08-26,ES-RI,La Rioja,5
+2022-08-26,ES-VC,Comunidad Valenciana,430
+2022-08-30,ES-AN,Andalucía,795
+2022-08-30,ES-AR,Aragón,65
+2022-08-30,ES-AS,Asturias,56
+2022-08-30,ES-CB,Cantabria,30
+2022-08-30,ES-CL,Castilla y León,67
+2022-08-30,ES-CM,Castilla-La Mancha,53
+2022-08-30,ES-CN,Canarias,156
+2022-08-30,ES-CT,Cataluña,1950
+2022-08-30,ES-EX,Extremadura,31
+2022-08-30,ES-GA,Galicia,108
+2022-08-30,ES-IB,Islas Baleares,193
+2022-08-30,ES-MC,Murcia,48
+2022-08-30,ES-MD,Madrid,2324
+2022-08-30,ES-NC,Navarra,18
+2022-08-30,ES-PV,País Vasco,212
+2022-08-30,ES-RI,La Rioja,5
+2022-08-30,ES-VC,Comunidad Valenciana,432
+2022-09-02,ES-AN,Andalucía,807
+2022-09-02,ES-AR,Aragón,69
+2022-09-02,ES-AS,Asturias,56
+2022-09-02,ES-CB,Cantabria,31
+2022-09-02,ES-CL,Castilla y León,70
+2022-09-02,ES-CM,Castilla-La Mancha,53
+2022-09-02,ES-CN,Canarias,158
+2022-09-02,ES-CT,Cataluña,1995
+2022-09-02,ES-EX,Extremadura,31
+2022-09-02,ES-GA,Galicia,111
+2022-09-02,ES-IB,Islas Baleares,193
+2022-09-02,ES-MC,Murcia,50
+2022-09-02,ES-MD,Madrid,2324
+2022-09-02,ES-NC,Navarra,18
+2022-09-02,ES-PV,País Vasco,218
+2022-09-02,ES-RI,La Rioja,6
+2022-09-02,ES-VC,Comunidad Valenciana,455
+2022-09-06,ES-AN,Andalucía,814
+2022-09-06,ES-AR,Aragón,71
+2022-09-06,ES-AS,Asturias,56
+2022-09-06,ES-CB,Cantabria,31
+2022-09-06,ES-CL,Castilla y León,71
+2022-09-06,ES-CM,Castilla-La Mancha,56
+2022-09-06,ES-CN,Canarias,160
+2022-09-06,ES-CT,Cataluña,2018
+2022-09-06,ES-EX,Extremadura,31
+2022-09-06,ES-GA,Galicia,113
+2022-09-06,ES-IB,Islas Baleares,193
+2022-09-06,ES-MC,Murcia,54
+2022-09-06,ES-MD,Madrid,2366
+2022-09-06,ES-NC,Navarra,19
+2022-09-06,ES-PV,País Vasco,220
+2022-09-06,ES-RI,La Rioja,6
+2022-09-06,ES-VC,Comunidad Valenciana,470
+2022-09-09,ES-AN,Andalucía,829
+2022-09-09,ES-AR,Aragón,73
+2022-09-09,ES-AS,Asturias,57
+2022-09-09,ES-CB,Cantabria,31
+2022-09-09,ES-CL,Castilla y León,74
+2022-09-09,ES-CM,Castilla-La Mancha,58
+2022-09-09,ES-CN,Canarias,163
+2022-09-09,ES-CT,Cataluña,2042
+2022-09-09,ES-EX,Extremadura,31
+2022-09-09,ES-GA,Galicia,114
+2022-09-09,ES-IB,Islas Baleares,201
+2022-09-09,ES-MC,Murcia,59
+2022-09-09,ES-MD,Madrid,2412
+2022-09-09,ES-NC,Navarra,20
+2022-09-09,ES-PV,País Vasco,225
+2022-09-09,ES-RI,La Rioja,6
+2022-09-09,ES-VC,Comunidad Valenciana,489
+2022-09-13,ES-AN,Andalucía,834
+2022-09-13,ES-AR,Aragón,73
+2022-09-13,ES-AS,Asturias,57
+2022-09-13,ES-CB,Cantabria,32
+2022-09-13,ES-CL,Castilla y León,78
+2022-09-13,ES-CM,Castilla-La Mancha,58
+2022-09-13,ES-CN,Canarias,164
+2022-09-13,ES-CT,Cataluña,2075
+2022-09-13,ES-EX,Extremadura,31
+2022-09-13,ES-GA,Galicia,115
+2022-09-13,ES-IB,Islas Baleares,201
+2022-09-13,ES-MC,Murcia,59
+2022-09-13,ES-MD,Madrid,2424
+2022-09-13,ES-NC,Navarra,20
+2022-09-13,ES-PV,País Vasco,227
+2022-09-13,ES-RI,La Rioja,6
+2022-09-13,ES-VC,Comunidad Valenciana,493
+2022-09-16,ES-AN,Andalucía,848
+2022-09-16,ES-AR,Aragón,73
+2022-09-16,ES-AS,Asturias,57
+2022-09-16,ES-CB,Cantabria,33
+2022-09-16,ES-CL,Castilla y León,79
+2022-09-16,ES-CM,Castilla-La Mancha,60
+2022-09-16,ES-CN,Canarias,166
+2022-09-16,ES-CT,Cataluña,2119
+2022-09-16,ES-EX,Extremadura,32
+2022-09-16,ES-GA,Galicia,116
+2022-09-16,ES-IB,Islas Baleares,205
+2022-09-16,ES-MC,Murcia,61
+2022-09-16,ES-MD,Madrid,2435
+2022-09-16,ES-NC,Navarra,21
+2022-09-16,ES-PV,País Vasco,228
+2022-09-16,ES-RI,La Rioja,6
+2022-09-16,ES-VC,Comunidad Valenciana,498
+2022-09-20,ES-AN,Andalucía,853
+2022-09-20,ES-AR,Aragón,74
+2022-09-20,ES-AS,Asturias,58
+2022-09-20,ES-CB,Cantabria,33
+2022-09-20,ES-CL,Castilla y León,79
+2022-09-20,ES-CM,Castilla-La Mancha,62
+2022-09-20,ES-CN,Canarias,166
+2022-09-20,ES-CT,Cataluña,2125
+2022-09-20,ES-EX,Extremadura,32
+2022-09-20,ES-GA,Galicia,120
+2022-09-20,ES-IB,Islas Baleares,205
+2022-09-20,ES-MC,Murcia,67
+2022-09-20,ES-MD,Madrid,2449
+2022-09-20,ES-NC,Navarra,21
+2022-09-20,ES-PV,País Vasco,229
+2022-09-20,ES-RI,La Rioja,6
+2022-09-20,ES-VC,Comunidad Valenciana,504
+2022-09-23,ES-AN,Andalucía,854
+2022-09-23,ES-AR,Aragón,74
+2022-09-23,ES-AS,Asturias,58
+2022-09-23,ES-CB,Cantabria,34
+2022-09-23,ES-CL,Castilla y León,80
+2022-09-23,ES-CM,Castilla-La Mancha,62
+2022-09-23,ES-CN,Canarias,168
+2022-09-23,ES-CT,Cataluña,2136
+2022-09-23,ES-EX,Extremadura,32
+2022-09-23,ES-GA,Galicia,121
+2022-09-23,ES-IB,Islas Baleares,205
+2022-09-23,ES-MC,Murcia,67
+2022-09-23,ES-MD,Madrid,2463
+2022-09-23,ES-NC,Navarra,21
+2022-09-23,ES-PV,País Vasco,231
+2022-09-23,ES-RI,La Rioja,6
+2022-09-23,ES-VC,Comunidad Valenciana,510
+2022-09-27,ES-AN,Andalucía,854
+2022-09-27,ES-AR,Aragón,74
+2022-09-27,ES-AS,Asturias,58
+2022-09-27,ES-CB,Cantabria,34
+2022-09-27,ES-CL,Castilla y León,80
+2022-09-27,ES-CM,Castilla-La Mancha,62
+2022-09-27,ES-CN,Canarias,169
+2022-09-27,ES-CT,Cataluña,2136
+2022-09-27,ES-EX,Extremadura,32
+2022-09-27,ES-GA,Galicia,121
+2022-09-27,ES-IB,Islas Baleares,205
+2022-09-27,ES-MC,Murcia,71
+2022-09-27,ES-MD,Madrid,2478
+2022-09-27,ES-NC,Navarra,21
+2022-09-27,ES-PV,País Vasco,232
+2022-09-27,ES-RI,La Rioja,6
+2022-09-27,ES-VC,Comunidad Valenciana,516
+2022-09-30,ES-AN,Andalucía,864
+2022-09-30,ES-AR,Aragón,74
+2022-09-30,ES-AS,Asturias,58
+2022-09-30,ES-CB,Cantabria,35
+2022-09-30,ES-CL,Castilla y León,80
+2022-09-30,ES-CM,Castilla-La Mancha,62
+2022-09-30,ES-CN,Canarias,171
+2022-09-30,ES-CT,Cataluña,2143
+2022-09-30,ES-EX,Extremadura,32
+2022-09-30,ES-GA,Galicia,121
+2022-09-30,ES-IB,Islas Baleares,209
+2022-09-30,ES-MC,Murcia,71
+2022-09-30,ES-MD,Madrid,2488
+2022-09-30,ES-NC,Navarra,21
+2022-09-30,ES-PV,País Vasco,234
+2022-09-30,ES-RI,La Rioja,6
+2022-09-30,ES-VC,Comunidad Valenciana,519
+2022-10-04,ES-AN,Andalucía,866
+2022-10-04,ES-AR,Aragón,74
+2022-10-04,ES-AS,Asturias,58
+2022-10-04,ES-CB,Cantabria,35
+2022-10-04,ES-CL,Castilla y León,82
+2022-10-04,ES-CM,Castilla-La Mancha,62
+2022-10-04,ES-CN,Canarias,172
+2022-10-04,ES-CT,Cataluña,2143
+2022-10-04,ES-EX,Extremadura,32
+2022-10-04,ES-GA,Galicia,121
+2022-10-04,ES-IB,Islas Baleares,210
+2022-10-04,ES-MC,Murcia,73
+2022-10-04,ES-MD,Madrid,2495
+2022-10-04,ES-NC,Navarra,21
+2022-10-04,ES-PV,País Vasco,235
+2022-10-04,ES-RI,La Rioja,6
+2022-10-04,ES-VC,Comunidad Valenciana,524
+2022-10-07,ES-AN,Andalucía,868
+2022-10-07,ES-AR,Aragón,74
+2022-10-07,ES-AS,Asturias,58
+2022-10-07,ES-CB,Cantabria,35
+2022-10-07,ES-CL,Castilla y León,82
+2022-10-07,ES-CM,Castilla-La Mancha,64
+2022-10-07,ES-CN,Canarias,172
+2022-10-07,ES-CT,Cataluña,2143
+2022-10-07,ES-EX,Extremadura,32
+2022-10-07,ES-GA,Galicia,121
+2022-10-07,ES-IB,Islas Baleares,210
+2022-10-07,ES-MC,Murcia,75
+2022-10-07,ES-MD,Madrid,2495
+2022-10-07,ES-NC,Navarra,21
+2022-10-07,ES-PV,País Vasco,237
+2022-10-07,ES-RI,La Rioja,6
+2022-10-07,ES-VC,Comunidad Valenciana,526
+2022-10-11,ES-AN,Andalucía,870
+2022-10-11,ES-AR,Aragón,74
+2022-10-11,ES-AS,Asturias,59
+2022-10-11,ES-CB,Cantabria,35
+2022-10-11,ES-CL,Castilla y León,84
+2022-10-11,ES-CM,Castilla-La Mancha,64
+2022-10-11,ES-CN,Canarias,173
+2022-10-11,ES-CT,Cataluña,2149
+2022-10-11,ES-EX,Extremadura,32
+2022-10-11,ES-GA,Galicia,121
+2022-10-11,ES-IB,Islas Baleares,210
+2022-10-11,ES-MC,Murcia,75
+2022-10-11,ES-MD,Madrid,2500
+2022-10-11,ES-NC,Navarra,21
+2022-10-11,ES-PV,País Vasco,239
+2022-10-11,ES-RI,La Rioja,6
+2022-10-11,ES-VC,Comunidad Valenciana,527
+2022-10-18,ES-AN,Andalucía,875
+2022-10-18,ES-AR,Aragón,74
+2022-10-18,ES-AS,Asturias,59
+2022-10-18,ES-CB,Cantabria,36
+2022-10-18,ES-CL,Castilla y León,84
+2022-10-18,ES-CM,Castilla-La Mancha,66
+2022-10-18,ES-CN,Canarias,175
+2022-10-18,ES-CT,Cataluña,2161
+2022-10-18,ES-EX,Extremadura,32
+2022-10-18,ES-GA,Galicia,121
+2022-10-18,ES-IB,Islas Baleares,210
+2022-10-18,ES-MC,Murcia,79
+2022-10-18,ES-MD,Madrid,2508
+2022-10-18,ES-NC,Navarra,21
+2022-10-18,ES-PV,País Vasco,241
+2022-10-18,ES-RI,La Rioja,6
+2022-10-18,ES-VC,Comunidad Valenciana,529
+2022-10-25,ES-AN,Andalucía,878
+2022-10-25,ES-AR,Aragón,74
+2022-10-25,ES-AS,Asturias,59
+2022-10-25,ES-CB,Cantabria,36
+2022-10-25,ES-CL,Castilla y León,85
+2022-10-25,ES-CM,Castilla-La Mancha,66
+2022-10-25,ES-CN,Canarias,175
+2022-10-25,ES-CT,Cataluña,2192
+2022-10-25,ES-EX,Extremadura,32
+2022-10-25,ES-GA,Galicia,121
+2022-10-25,ES-IB,Islas Baleares,211
+2022-10-25,ES-MC,Murcia,80
+2022-10-25,ES-MD,Madrid,2508
+2022-10-25,ES-NC,Navarra,21
+2022-10-25,ES-PV,País Vasco,243
+2022-10-25,ES-RI,La Rioja,6
+2022-10-25,ES-VC,Comunidad Valenciana,530
+2022-11-02,ES-AN,Andalucía,878
+2022-11-02,ES-AR,Aragón,74
+2022-11-02,ES-AS,Asturias,59
+2022-11-02,ES-CB,Cantabria,36
+2022-11-02,ES-CL,Castilla y León,85
+2022-11-02,ES-CM,Castilla-La Mancha,66
+2022-11-02,ES-CN,Canarias,176
+2022-11-02,ES-CT,Cataluña,2196
+2022-11-02,ES-EX,Extremadura,32
+2022-11-02,ES-GA,Galicia,122
+2022-11-02,ES-IB,Islas Baleares,211
+2022-11-02,ES-MC,Murcia,82
+2022-11-02,ES-MD,Madrid,2518
+2022-11-02,ES-NC,Navarra,21
+2022-11-02,ES-PV,País Vasco,243
+2022-11-02,ES-RI,La Rioja,6
+2022-11-02,ES-VC,Comunidad Valenciana,531
+2022-11-10,ES-AN,Andalucía,881
+2022-11-10,ES-AR,Aragón,74
+2022-11-10,ES-AS,Asturias,59
+2022-11-10,ES-CB,Cantabria,36
+2022-11-10,ES-CL,Castilla y León,85
+2022-11-10,ES-CM,Castilla-La Mancha,66
+2022-11-10,ES-CN,Canarias,176
+2022-11-10,ES-CT,Cataluña,2226
+2022-11-10,ES-EX,Extremadura,32
+2022-11-10,ES-GA,Galicia,122
+2022-11-10,ES-IB,Islas Baleares,213
+2022-11-10,ES-MC,Murcia,82
+2022-11-10,ES-MD,Madrid,2521
+2022-11-10,ES-NC,Navarra,21
+2022-11-10,ES-PV,País Vasco,244
+2022-11-10,ES-RI,La Rioja,6
+2022-11-10,ES-VC,Comunidad Valenciana,533
+2022-11-15,ES-AN,Andalucía,883
+2022-11-15,ES-AR,Aragón,74
+2022-11-15,ES-AS,Asturias,59
+2022-11-15,ES-CB,Cantabria,36
+2022-11-15,ES-CL,Castilla y León,85
+2022-11-15,ES-CM,Castilla-La Mancha,66
+2022-11-15,ES-CN,Canarias,176
+2022-11-15,ES-CT,Cataluña,2231
+2022-11-15,ES-EX,Extremadura,32
+2022-11-15,ES-GA,Galicia,122
+2022-11-15,ES-IB,Islas Baleares,213
+2022-11-15,ES-MC,Murcia,83
+2022-11-15,ES-MD,Madrid,2523
+2022-11-15,ES-NC,Navarra,21
+2022-11-15,ES-PV,País Vasco,245
+2022-11-15,ES-RI,La Rioja,6
+2022-11-15,ES-VC,Comunidad Valenciana,536
+2022-11-22,ES-AN,Andalucía,883
+2022-11-22,ES-AR,Aragón,74
+2022-11-22,ES-AS,Asturias,59
+2022-11-22,ES-CB,Cantabria,36
+2022-11-22,ES-CL,Castilla y León,85
+2022-11-22,ES-CM,Castilla-La Mancha,66
+2022-11-22,ES-CN,Canarias,176
+2022-11-22,ES-CT,Cataluña,2234
+2022-11-22,ES-EX,Extremadura,32
+2022-11-22,ES-GA,Galicia,122
+2022-11-22,ES-IB,Islas Baleares,213
+2022-11-22,ES-MC,Murcia,83
+2022-11-22,ES-MD,Madrid,2526
+2022-11-22,ES-NC,Navarra,21
+2022-11-22,ES-PV,País Vasco,245
+2022-11-22,ES-RI,La Rioja,6
+2022-11-22,ES-VC,Comunidad Valenciana,543
+2022-11-29,ES-AN,Andalucía,883
+2022-11-29,ES-AR,Aragón,74
+2022-11-29,ES-AS,Asturias,59
+2022-11-29,ES-CB,Cantabria,36
+2022-11-29,ES-CL,Castilla y León,85
+2022-11-29,ES-CM,Castilla-La Mancha,66
+2022-11-29,ES-CN,Canarias,176
+2022-11-29,ES-CT,Cataluña,2232
+2022-11-29,ES-EX,Extremadura,32
+2022-11-29,ES-GA,Galicia,122
+2022-11-29,ES-IB,Islas Baleares,213
+2022-11-29,ES-MC,Murcia,83
+2022-11-29,ES-MD,Madrid,2529
+2022-11-29,ES-NC,Navarra,21
+2022-11-29,ES-PV,País Vasco,245
+2022-11-29,ES-RI,La Rioja,6
+2022-11-29,ES-VC,Comunidad Valenciana,545
+2022-12-07,ES-AN,Andalucía,883
+2022-12-07,ES-AR,Aragón,74
+2022-12-07,ES-AS,Asturias,59
+2022-12-07,ES-CB,Cantabria,36
+2022-12-07,ES-CL,Castilla y León,85
+2022-12-07,ES-CM,Castilla-La Mancha,66
+2022-12-07,ES-CN,Canarias,176
+2022-12-07,ES-CT,Cataluña,2235
+2022-12-07,ES-EX,Extremadura,32
+2022-12-07,ES-GA,Galicia,122
+2022-12-07,ES-IB,Islas Baleares,214
+2022-12-07,ES-MC,Murcia,83
+2022-12-07,ES-MD,Madrid,2529
+2022-12-07,ES-NC,Navarra,21
+2022-12-07,ES-PV,País Vasco,245
+2022-12-07,ES-RI,La Rioja,6
+2022-12-07,ES-VC,Comunidad Valenciana,545
+2022-12-13,ES-AN,Andalucía,884
+2022-12-13,ES-AR,Aragón,74
+2022-12-13,ES-AS,Asturias,59
+2022-12-13,ES-CB,Cantabria,36
+2022-12-13,ES-CL,Castilla y León,85
+2022-12-13,ES-CM,Castilla-La Mancha,66
+2022-12-13,ES-CN,Canarias,176
+2022-12-13,ES-CT,Cataluña,2234
+2022-12-13,ES-EX,Extremadura,32
+2022-12-13,ES-GA,Galicia,122
+2022-12-13,ES-IB,Islas Baleares,214
+2022-12-13,ES-MC,Murcia,85
+2022-12-13,ES-MD,Madrid,2531
+2022-12-13,ES-NC,Navarra,21
+2022-12-13,ES-PV,País Vasco,245
+2022-12-13,ES-RI,La Rioja,6
+2022-12-13,ES-VC,Comunidad Valenciana,545
+2022-12-20,ES-AN,Andalucía,884
+2022-12-20,ES-AR,Aragón,74
+2022-12-20,ES-AS,Asturias,59
+2022-12-20,ES-CB,Cantabria,36
+2022-12-20,ES-CL,Castilla y León,85
+2022-12-20,ES-CM,Castilla-La Mancha,66
+2022-12-20,ES-CN,Canarias,176
+2022-12-20,ES-CT,Cataluña,2311
+2022-12-20,ES-EX,Extremadura,32
+2022-12-20,ES-GA,Galicia,122
+2022-12-20,ES-IB,Islas Baleares,214
+2022-12-20,ES-MC,Murcia,86
+2022-12-20,ES-MD,Madrid,2532
+2022-12-20,ES-NC,Navarra,21
+2022-12-20,ES-PV,País Vasco,245
+2022-12-20,ES-RI,La Rioja,6
+2022-12-20,ES-VC,Comunidad Valenciana,546
+2022-12-27,ES-AN,Andalucía,884
+2022-12-27,ES-AR,Aragón,74
+2022-12-27,ES-AS,Asturias,59
+2022-12-27,ES-CB,Cantabria,36
+2022-12-27,ES-CL,Castilla y León,85
+2022-12-27,ES-CM,Castilla-La Mancha,66
+2022-12-27,ES-CN,Canarias,176
+2022-12-27,ES-CT,Cataluña,2312
+2022-12-27,ES-EX,Extremadura,32
+2022-12-27,ES-GA,Galicia,122
+2022-12-27,ES-IB,Islas Baleares,216
+2022-12-27,ES-MC,Murcia,86
+2022-12-27,ES-MD,Madrid,2532
+2022-12-27,ES-NC,Navarra,21
+2022-12-27,ES-PV,País Vasco,245
+2022-12-27,ES-RI,La Rioja,6
+2022-12-27,ES-VC,Comunidad Valenciana,546
+2023-01-03,ES-AN,Andalucía,884
+2023-01-03,ES-AR,Aragón,74
+2023-01-03,ES-AS,Asturias,59
+2023-01-03,ES-CB,Cantabria,36
+2023-01-03,ES-CL,Castilla y León,85
+2023-01-03,ES-CM,Castilla-La Mancha,66
+2023-01-03,ES-CN,Canarias,176
+2023-01-03,ES-CT,Cataluña,2312
+2023-01-03,ES-EX,Extremadura,32
+2023-01-03,ES-GA,Galicia,122
+2023-01-03,ES-IB,Islas Baleares,216
+2023-01-03,ES-MC,Murcia,86
+2023-01-03,ES-MD,Madrid,2533
+2023-01-03,ES-NC,Navarra,21
+2023-01-03,ES-PV,País Vasco,245
+2023-01-03,ES-RI,La Rioja,6
+2023-01-03,ES-VC,Comunidad Valenciana,546
+2023-01-10,ES-AN,Andalucía,884
+2023-01-10,ES-AR,Aragón,74
+2023-01-10,ES-AS,Asturias,59
+2023-01-10,ES-CB,Cantabria,36
+2023-01-10,ES-CL,Castilla y León,85
+2023-01-10,ES-CM,Castilla-La Mancha,67
+2023-01-10,ES-CN,Canarias,176
+2023-01-10,ES-CT,Cataluña,2315
+2023-01-10,ES-EX,Extremadura,32
+2023-01-10,ES-GA,Galicia,122
+2023-01-10,ES-IB,Islas Baleares,216
+2023-01-10,ES-MC,Murcia,88
+2023-01-10,ES-MD,Madrid,2533
+2023-01-10,ES-NC,Navarra,21
+2023-01-10,ES-PV,País Vasco,245
+2023-01-10,ES-RI,La Rioja,6
+2023-01-10,ES-VC,Comunidad Valenciana,546
+2023-01-17,ES-AN,Andalucía,884
+2023-01-17,ES-AR,Aragón,74
+2023-01-17,ES-AS,Asturias,59
+2023-01-17,ES-CB,Cantabria,36
+2023-01-17,ES-CL,Castilla y León,85
+2023-01-17,ES-CM,Castilla-La Mancha,67
+2023-01-17,ES-CN,Canarias,176
+2023-01-17,ES-CT,Cataluña,2316
+2023-01-17,ES-EX,Extremadura,32
+2023-01-17,ES-GA,Galicia,122
+2023-01-17,ES-IB,Islas Baleares,216
+2023-01-17,ES-MC,Murcia,90
+2023-01-17,ES-MD,Madrid,2537
+2023-01-17,ES-NC,Navarra,21
+2023-01-17,ES-PV,País Vasco,245
+2023-01-17,ES-RI,La Rioja,6
+2023-01-17,ES-VC,Comunidad Valenciana,547
+2023-01-24,ES-AN,Andalucía,884
+2023-01-24,ES-AR,Aragón,74
+2023-01-24,ES-AS,Asturias,59
+2023-01-24,ES-CB,Cantabria,36
+2023-01-24,ES-CL,Castilla y León,86
+2023-01-24,ES-CM,Castilla-La Mancha,67
+2023-01-24,ES-CN,Canarias,176
+2023-01-24,ES-CT,Cataluña,2316
+2023-01-24,ES-EX,Extremadura,32
+2023-01-24,ES-GA,Galicia,122
+2023-01-24,ES-IB,Islas Baleares,216
+2023-01-24,ES-MC,Murcia,90
+2023-01-24,ES-MD,Madrid,2537
+2023-01-24,ES-NC,Navarra,21
+2023-01-24,ES-PV,País Vasco,245
+2023-01-24,ES-RI,La Rioja,6
+2023-01-24,ES-VC,Comunidad Valenciana,549
+2023-05-09,ES-AN,Andalucía,884
+2023-05-09,ES-AR,Aragón,74
+2023-05-09,ES-AS,Asturias,59
+2023-05-09,ES-CB,Cantabria,36
+2023-05-09,ES-CL,Castilla y León,87
+2023-05-09,ES-CM,Castilla-La Mancha,67
+2023-05-09,ES-CN,Canarias,176
+2023-05-09,ES-CT,Cataluña,2322
+2023-05-09,ES-EX,Extremadura,32
+2023-05-09,ES-GA,Galicia,122
+2023-05-09,ES-IB,Islas Baleares,216
+2023-05-09,ES-MC,Murcia,94
+2023-05-09,ES-MD,Madrid,2552
+2023-05-09,ES-NC,Navarra,21
+2023-05-09,ES-PV,País Vasco,245
+2023-05-09,ES-RI,La Rioja,6
+2023-05-09,ES-VC,Comunidad Valenciana,557

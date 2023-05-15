@@ -2,6 +2,7 @@
 
 # download updated files
 base_url="https://www.sanidad.gob.es/profesionales/saludPublica/ccayes/alertasActual/alertaMonkeypox"
+isciii_url="https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Paginas/Resultados_Vigilancia_Viruela-del-mono.aspx"
 
 links_pdfs=$(wget --no-verbose --output-document=- "${base_url}/home.htm" | grep --only-matching '"docs/[^"]\+\.pdf"' | tr -d '"')
 guides_pdfs=($(wget --no-verbose --output-document=- "${base_url}/guiaDeManejo.htm" | grep --only-matching '"docs/[^"]\+\.pdf"' | tr -d '"'))
@@ -25,20 +26,15 @@ do
 	wget ${opts}guías "${base_url}"/${file}
 done
 
-file_to_parse="$(realpath $(echo "${links_pdfs}" | grep "Informe_de_situacion" | sed 's|docs/|documentos/informes/|g'))"
+# downloads reports from ISCIII
+isciii_pdfs=$(wget --no-verbose --output-document=- "${isciii_url}" \
+	| sed 's/<a href=/\n/g' \
+	| grep '^"/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/archivos%20A-Z/MPOX/SITUACION%20EPIDEMIOLOGICA' \
+	| awk -F '"' '{ print "https://www.isciii.es"$2 }' )
 
-# extract on-set date information from chart on Friday
-if [ $(date +%u) -eq 5 ]
-then
-	tmpdir=$(mktemp -d)
-	pushd "${tmpdir}"
-	pdfimages -f 2 -l 2 -png "${file_to_parse}" img
-	file_png="${tmpdir}/$(ls -S *.png | head -1)"
-	popd
-	python3 extract.py "${file_png}" > "data/on-set_spain.csv"
-	mlr --icsv --ojson --jlistwrap cat "data/on-set_spain.csv"  | jq '.' > "data/on-set_spain.json"
-	rm -fr "${tmpdir}"
-fi
+echo -e "${isciii_pdfs}" | xargs wget ${opts}documentos/isciii
 
-# parse PDF text
-./parse.sh "${file_to_parse}"
+# parse only the most-recent file (the one at the top)
+file_to_parse="$(realpath "$(echo "${isciii_pdfs}" | head --lines=1 | sed -e 's/%20/ /g' -e 's|.*/MPOX/|documentos/isciii/|g')")"
+
+./convert.sh "${file_to_parse}"

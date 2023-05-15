@@ -1,0 +1,326 @@
+[
+  {
+    "date": "2022-06-06",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 51
+  },
+  {
+    "date": "2022-06-09",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 259
+  },
+  {
+    "date": "2022-06-10",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 275
+  },
+  {
+    "date": "2022-06-14",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 313
+  },
+  {
+    "date": "2022-06-17",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 497
+  },
+  {
+    "date": "2022-06-21",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 520
+  },
+  {
+    "date": "2022-06-24",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 736
+  },
+  {
+    "date": "2022-06-28",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 800
+  },
+  {
+    "date": "2022-07-01",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 1196
+  },
+  {
+    "date": "2022-07-05",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 1256
+  },
+  {
+    "date": "2022-07-08",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 2034
+  },
+  {
+    "date": "2022-07-12",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 2447
+  },
+  {
+    "date": "2022-07-15",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 2835
+  },
+  {
+    "date": "2022-07-19",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 3125
+  },
+  {
+    "date": "2022-07-26",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 3738
+  },
+  {
+    "date": "2022-07-29",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 4298
+  },
+  {
+    "date": "2022-07-30",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 4298
+  },
+  {
+    "date": "2022-08-02",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 4341
+  },
+  {
+    "date": "2022-08-05",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 4942
+  },
+  {
+    "date": "2022-08-09",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 5162
+  },
+  {
+    "date": "2022-08-12",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 5510
+  },
+  {
+    "date": "2022-08-16",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 5583
+  },
+  {
+    "date": "2022-08-19",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6119
+  },
+  {
+    "date": "2022-08-23",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6284
+  },
+  {
+    "date": "2022-08-26",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6459
+  },
+  {
+    "date": "2022-08-30",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6543
+  },
+  {
+    "date": "2022-09-02",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6645
+  },
+  {
+    "date": "2022-09-06",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6749
+  },
+  {
+    "date": "2022-09-09",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6884
+  },
+  {
+    "date": "2022-09-13",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 6947
+  },
+  {
+    "date": "2022-09-16",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7037
+  },
+  {
+    "date": "2022-09-20",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7083
+  },
+  {
+    "date": "2022-09-23",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7122
+  },
+  {
+    "date": "2022-09-27",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7149
+  },
+  {
+    "date": "2022-09-30",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7188
+  },
+  {
+    "date": "2022-10-04",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7209
+  },
+  {
+    "date": "2022-10-07",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7219
+  },
+  {
+    "date": "2022-10-11",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7239
+  },
+  {
+    "date": "2022-10-18",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7277
+  },
+  {
+    "date": "2022-10-25",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7317
+  },
+  {
+    "date": "2022-11-02",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7336
+  },
+  {
+    "date": "2022-11-10",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7377
+  },
+  {
+    "date": "2022-11-15",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7391
+  },
+  {
+    "date": "2022-11-22",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7404
+  },
+  {
+    "date": "2022-11-29",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7407
+  },
+  {
+    "date": "2022-12-07",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7411
+  },
+  {
+    "date": "2022-12-13",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7415
+  },
+  {
+    "date": "2022-12-20",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7495
+  },
+  {
+    "date": "2022-12-27",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7498
+  },
+  {
+    "date": "2023-01-03",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7499
+  },
+  {
+    "date": "2023-01-10",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7505
+  },
+  {
+    "date": "2023-01-17",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7513
+  },
+  {
+    "date": "2023-01-24",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7516
+  },
+  {
+    "date": "2023-05-09",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 7550
+  }
+]
