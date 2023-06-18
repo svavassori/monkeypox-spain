@@ -16,7 +16,7 @@ wget ${opts}documentos/informes "${base_url}"/$(echo "${links_pdfs}" | grep "Inf
 wget ${opts}documentos/protocolo "${base_url}"/$(echo "${links_pdfs}" | grep "ProtocoloMPX")
 
 # download remaining homepage's documents
-other_files=($(echo "${links_pdfs}" | grep --invert-match "_ERR_Monkeypox\|Informe_de_situacion\|ProtocoloMPX"))
+other_files=($(echo "${links_pdfs}" | grep --invert-match "ERR_Monkeypox\|Informe_de_situacion\|ProtocoloMPX"))
 for file in "${other_files[@]}"
 do
 	wget ${opts}documentos "${base_url}"/${file}
