@@ -25,7 +25,12 @@ done
 # download vaccines
 for file in "${vaccines_pdfs[@]}"
 do
-    wget ${opts}documentos/vacunas "${vaccines_url}"/${file}
+	if [[ "${file}" =~ ^http ]]
+	then
+		wget ${opts}documentos/vacunas "${file}"
+	else
+		wget ${opts}documentos/vacunas "${vaccines_url}/${file}"
+	fi
 done
 
 # download guides
