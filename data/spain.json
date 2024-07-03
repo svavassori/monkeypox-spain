@@ -436,5 +436,11 @@
     "iso_code": "ES",
     "state": "España",
     "cases": 7786
+  },
+  {
+    "date": "2024-07-03",
+    "iso_code": "ES",
+    "state": "España",
+    "cases": 8084
   }
 ]
