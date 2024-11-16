@@ -549,7 +549,7 @@
 			}
 		};
 
-		Liferay.authToken = 'jlbqAePL';
+		Liferay.authToken = 'NqTEzSRh';
 
 		
 
@@ -1632,7 +1632,7 @@ Liferay.on(
 
 
 
-	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="oyvq_quickAccessNav">
+	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="vcni_quickAccessNav">
 		
 			
 				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
@@ -1808,7 +1808,7 @@ Liferay.on(
 
 	
 
-	<div class="lfr-layout-structure-item-bannercookies lfr-layout-structure-item-866c659c-17c1-712d-9105-641cadd9986b " style=""><div id="fragment-86132bed-ab93-bbef-312d-8fa90399726c"> <div class="cookie-banner">
+	<div class="lfr-layout-structure-item-bannercookies lfr-layout-structure-item-866c659c-17c1-712d-9105-641cadd9986b " style=""><div id="fragment-56e392d5-e5fa-9ff4-c764-e04fc759f22b"> <div class="cookie-banner">
 	<div class="container-flex divcookies2 mx-auto py-5 px-5">
 		<div>
 			<div aria-label="Texto principal de política de cookies" class="mb-3" data-lfr-editable-id="01-text" data-lfr-editable-type="rich-text">El Instituto de Salud Carlos III utiliza cookies propias y de terceros para el correcto funcionamiento y visualización del sitio web por parte del usuario, así como la recogida de estadísticas. Si continúa navegando, consideramos que acepta su uso. Para más información visite nuestra&nbsp;<a aria-label="learn more about cookies" href="/politica-cookies" rel="noopener noreferrer nofollow" role="button" tabindex="0" target="_blank">Política de Cookies.</a></div>
@@ -1875,7 +1875,7 @@ body:not(.has-edit-mode-menu) .banner-fixed-top {
 	right: 0;
 	top: 0;
 }
-</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-86132bed-ab93-bbef-312d-8fa90399726c'); const fragmentEntryLinkNamespace = 'mhqc'; const fragmentNamespace = 'mhqc'; const layoutMode = 'view';/* ISCIII banner cookies*/
+</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-56e392d5-e5fa-9ff4-c764-e04fc759f22b'); const fragmentEntryLinkNamespace = 'mhqc'; const fragmentNamespace = 'mhqc'; const layoutMode = 'view';/* ISCIII banner cookies*/
 const button = fragmentElement.querySelector('.cookie-banner-button');
 
 const buttonClose = fragmentElement.querySelector('.cookie-banner-rechazar');
@@ -1927,7 +1927,7 @@ if (!(localStorage.getItem('liferay.cookie.consent') === 'accepted' ||
 }
 
 main();
-;</script></div><div class="lfr-layout-structure-item-headerisciii lfr-layout-structure-item-a0371e2c-cd6a-805a-63a9-ed938463e6b2 " style=""><div id="fragment-cb7250f9-0508-27ff-401c-622ee50c853e"> <header class="headerIsciii">
+;</script></div><div class="lfr-layout-structure-item-headerisciii lfr-layout-structure-item-a0371e2c-cd6a-805a-63a9-ed938463e6b2 " style=""><div id="fragment-c0a301f2-f777-e9d6-33c7-12be3f5e2b61"> <header class="headerIsciii">
     <div class="contHeader1">
         <div class="row container m-auto containerHeader p-0">
             <div class="col-10 col-md-10 col-lg-6 pl-0 contLogosHeader">
@@ -3281,7 +3281,7 @@ main();
 
                 <div class="input-group search-bar-simple">
                     <div class="input-group-item search-bar-keywords-input-wrapper">
-                        <input class="form-control input-group-inset input-group-inset-before search-bar-keywords-input inputBuscador" data-qa-id="searchInput" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_xoln" name="q" placeholder="Escribe el término de búsqueda" title="Buscar" type="text" value="" />
+                        <input class="form-control input-group-inset input-group-inset-before search-bar-keywords-input inputBuscador" data-qa-id="searchInput" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_vyfh" name="q" placeholder="Escribe el término de búsqueda" title="Buscar" type="text" value="" />
 
 
 
@@ -3490,7 +3490,7 @@ main();
 		<script type="module">
 import {SearchBar as ComponentModule} from '/o/portal-search-web/__liferay__/index.js';
 {
-Liferay.component('__UNNAMED_COMPONENT__54295bc3-f33b-24c1-a223-982c896e19d5', new ComponentModule({"formId":"dkrk___fm","namespace":"_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_","spritemap":"https:\/\/www.isciii.es\/o\/classic-theme\/images\/clay\/icons.svg","initialKeywords":"","retainFacetSelections":false}), { destroyOnNavigate: true, portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch'});
+Liferay.component('__UNNAMED_COMPONENT__b9643c65-5d8b-1c7c-77c3-273937061cfd', new ComponentModule({"formId":"dkrk___fm","namespace":"_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_","spritemap":"https:\/\/www.isciii.es\/o\/classic-theme\/images\/clay\/icons.svg","initialKeywords":"","retainFacetSelections":false}), { destroyOnNavigate: true, portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch'});
 }
 
 </script>
@@ -3821,7 +3821,7 @@ Liferay.component('__UNNAMED_COMPONENT__54295bc3-f33b-24c1-a223-982c896e19d5', n
     #isciii-language ul li:first-child { 
         padding-top: 8px;
     }
-	#isciii-language #current-languagejajt_ {
+	#isciii-language #current-languagediui_ {
         cursor: pointer;
         align-items: center;
         background: none;
@@ -3843,7 +3843,7 @@ Liferay.component('__UNNAMED_COMPONENT__54295bc3-f33b-24c1-a223-982c896e19d5', n
     }
 </style>
 <div id="isciii-language">
-    <button onclick="toggleLanguageSelector(this)" id="current-languagejajt_" lang="es-ES" class="d-flex" aria-label="Abre el selector de idioma, actualmente seleccionado español">
+    <button onclick="toggleLanguageSelector(this)" id="current-languagediui_" lang="es-ES" class="d-flex" aria-label="Abre el selector de idioma, actualmente seleccionado español">
         <div class="language-flag-icon bg-es-ES"></div>
         <span class="aecid-language" lang="es-ES">esp</span>
         <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -5381,7 +5381,7 @@ function toggleLanguageSelector(button) {
 
                 <div class="input-group search-bar-simple">
                     <div class="input-group-item search-bar-keywords-input-wrapper">
-                        <input class="form-control input-group-inset input-group-inset-before search-bar-keywords-input inputBuscador" data-qa-id="searchInput" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_geap_xnnh" name="q" placeholder="Escribe el término de búsqueda" title="Buscar" type="text" value="" />
+                        <input class="form-control input-group-inset input-group-inset-before search-bar-keywords-input inputBuscador" data-qa-id="searchInput" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_geap_wuie" name="q" placeholder="Escribe el término de búsqueda" title="Buscar" type="text" value="" />
 
 
 
@@ -5590,7 +5590,7 @@ function toggleLanguageSelector(button) {
 		<script type="module">
 import {SearchBar as ComponentModule} from '/o/portal-search-web/__liferay__/index.js';
 {
-Liferay.component('__UNNAMED_COMPONENT__d250fdb9-85d9-3df3-ceac-0d34ddd99a85', new ComponentModule({"formId":"wfkm___fm","namespace":"_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_geap_","spritemap":"https:\/\/www.isciii.es\/o\/classic-theme\/images\/clay\/icons.svg","initialKeywords":"","retainFacetSelections":false}), { destroyOnNavigate: true, portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_geap'});
+Liferay.component('__UNNAMED_COMPONENT__381bf75d-b1d9-1829-995b-728a3cae0bca', new ComponentModule({"formId":"wfkm___fm","namespace":"_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_geap_","spritemap":"https:\/\/www.isciii.es\/o\/classic-theme\/images\/clay\/icons.svg","initialKeywords":"","retainFacetSelections":false}), { destroyOnNavigate: true, portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_geap'});
 }
 
 </script>
@@ -5634,7 +5634,7 @@ Liferay.component('__UNNAMED_COMPONENT__d250fdb9-85d9-3df3-ceac-0d34ddd99a85', n
 </div>
         </div>
         <div class="col-1 pr-0 d-block headerLanguage">
-            <div><div class="lfr-layout-structure-item-com-liferay-site-navigation-language-web-portlet-sitenavigationlanguageportlet lfr-layout-structure-item-674f0a52-b583-724b-78a0-b324e7116b7d " style=""><div id="fragment-40f3769d-4f7b-91e5-e9f7-f36030c8a401">
+            <div><div class="lfr-layout-structure-item-com-liferay-site-navigation-language-web-portlet-sitenavigationlanguageportlet lfr-layout-structure-item-674f0a52-b583-724b-78a0-b324e7116b7d " style=""><div id="fragment-da928112-dbd1-cbd0-f377-fa1ad4df2184">
 
 
 
@@ -5923,7 +5923,7 @@ Liferay.component('__UNNAMED_COMPONENT__d250fdb9-85d9-3df3-ceac-0d34ddd99a85', n
     #isciii-language ul li:first-child { 
         padding-top: 8px;
     }
-	#isciii-language #current-languagecnis_ {
+	#isciii-language #current-languagebqky_ {
         cursor: pointer;
         align-items: center;
         background: none;
@@ -5945,7 +5945,7 @@ Liferay.component('__UNNAMED_COMPONENT__d250fdb9-85d9-3df3-ceac-0d34ddd99a85', n
     }
 </style>
 <div id="isciii-language">
-    <button onclick="toggleLanguageSelector(this)" id="current-languagecnis_" lang="es-ES" class="d-flex" aria-label="Abre el selector de idioma, actualmente seleccionado español">
+    <button onclick="toggleLanguageSelector(this)" id="current-languagebqky_" lang="es-ES" class="d-flex" aria-label="Abre el selector de idioma, actualmente seleccionado español">
         <div class="language-flag-icon bg-es-ES"></div>
         <span class="aecid-language" lang="es-ES">esp</span>
         <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -6163,7 +6163,7 @@ display: none;
 	}
 }
 
-</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-cb7250f9-0508-27ff-401c-622ee50c853e'); const fragmentEntryLinkNamespace = 'geap'; const fragmentNamespace = 'geap'; const layoutMode = 'view';$(() => {		
+</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-c0a301f2-f777-e9d6-33c7-12be3f5e2b61'); const fragmentEntryLinkNamespace = 'geap'; const fragmentNamespace = 'geap'; const layoutMode = 'view';$(() => {		
 	//h1 accesibilidad
 	let $h1Navegacion = $('<h1 class="sr-only d-none">Navegación</h1>');
 	$('body').prepend($h1Navegacion);
@@ -6176,7 +6176,7 @@ display: none;
 	}
 		
 	
-});</script></div><div class="lfr-layout-structure-item-fd007adb-3761-dffd-a226-0be5e0b3c8c0 lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-com-liferay-journal-content-web-portlet-journalcontentportlet lfr-layout-structure-item-657860c2-45c3-a2a1-621d-35ef4bde2ecd " style=""><div id="fragment-cc807175-1a70-b45a-6c56-a0202a83f6ba">
+});</script></div><div class="lfr-layout-structure-item-fd007adb-3761-dffd-a226-0be5e0b3c8c0 lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-com-liferay-journal-content-web-portlet-journalcontentportlet lfr-layout-structure-item-657860c2-45c3-a2a1-621d-35ef4bde2ecd " style=""><div id="fragment-fe24de73-61ae-b100-4bd7-3af3cf7e954e">
 
 
 
@@ -6536,7 +6536,7 @@ display: none;
 
 
 
-</div></div></div><div class="lfr-layout-structure-item-3e975512-8ca6-c621-e422-7ecf62ba80bd lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-2b7d1fb9-7dc8-9014-8a36-f0acabd7ce82 lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-2 col-sm-12 col-12 col-md-2"></div><div class="col col-lg-8 col-sm-12 col-12 col-md-8"><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-b0ce2f94-8416-f528-3f9f-fefa06599bba " style=""><div id="fragment-27d74424-adc8-1586-a0c8-3af99a03fe1a"> <h4 data-lfr-editable-id="tituloAccesiblegfwx" data-lfr-editable-type="text">Desde el ISCIII mostramos nuestra solidaridad con todas las personas afectadas por el desastre de la DANA</h4></div></div><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-2f79850d-99d6-5f32-6f40-e155e487f0bb " style=""><div id="fragment-4398405d-bc42-0979-0df7-5016db8377e4"> <h4 data-lfr-editable-id="tituloAccesiblenrki" data-lfr-editable-type="text">Todo nuestro apoyo en estos momentos tan difíciles</h4></div></div></div><div class="col col-lg-2 col-sm-12 col-12 col-md-2"></div></div></div></div><div class="lfr-layout-structure-item-0bdac30e-2d93-f5a2-ac0b-fe59fba0f5b3 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-3ef94399-8876-37aa-2d5c-d577af3b5948 conf-simple" style=""><div id="fragment-1053a9d5-5d48-6896-5aaa-f6c4efb6e0a1">
+</div></div></div><div class="lfr-layout-structure-item-3e975512-8ca6-c621-e422-7ecf62ba80bd lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-2b7d1fb9-7dc8-9014-8a36-f0acabd7ce82 lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-2 col-sm-12 col-12 col-md-2"></div><div class="col col-lg-8 col-sm-12 col-12 col-md-8"><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-b0ce2f94-8416-f528-3f9f-fefa06599bba " style=""><div id="fragment-8d828d8d-7c32-9a52-09a1-a08c83a4617f"> <h4 data-lfr-editable-id="tituloAccesiblegfwx" data-lfr-editable-type="text">Desde el ISCIII mostramos nuestra solidaridad con todas las personas afectadas por el desastre de la DANA</h4></div></div><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-2f79850d-99d6-5f32-6f40-e155e487f0bb " style=""><div id="fragment-052e6c2b-43d5-c115-6f67-25afd94a1a11"> <h4 data-lfr-editable-id="tituloAccesiblenrki" data-lfr-editable-type="text">Todo nuestro apoyo en estos momentos tan difíciles</h4></div></div></div><div class="col col-lg-2 col-sm-12 col-12 col-md-2"></div></div></div></div><div class="lfr-layout-structure-item-0bdac30e-2d93-f5a2-ac0b-fe59fba0f5b3 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-3ef94399-8876-37aa-2d5c-d577af3b5948 conf-simple" style=""><div id="fragment-dc0d4353-147a-3981-2a26-2dc8dd4904d9">
 
 
 
@@ -7535,10 +7535,10 @@ display: none;
 
 
 
-</div></div></div><div class="lfr-layout-structure-item-fcde2fa3-5bb2-f49b-b9f5-1b04301140de lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-a0f4fddd-f531-9255-c02c-e1b586b93272 " style=""><div id="fragment-207a2e3d-900c-5f76-d73d-aa448c94141d"> <h2 data-lfr-editable-id="tituloAccesiblehejs" data-lfr-editable-type="text">Destacados</h2></div></div><div class="lfr-layout-structure-item-6b276dea-0530-73ac-7922-665fc2d1386e lfr-layout-structure-item-row " style=""><div class="row align-items-lg-center align-items-sm-center align-items-center align-items-md-center flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-12 col-sm-12 col-12 col-md-12 d-flex flex-column"><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-bdc91aaf-c364-4cbb-e3fd-aa30dbbcaa34 " style=""><div id="fragment-67420395-aa04-e1e6-6bda-5d769c0a515d"> <h5 data-lfr-editable-id="tituloAccesiblekouo" data-lfr-editable-type="text">Información de salud pública&nbsp; del Ministerio de Sanidad sobre la DANA para personas voluntarias y población general</h5></div></div><div class="lfr-layout-structure-item-parrafoaccesible lfr-layout-structure-item-a05363f7-7a7f-c9ba-771e-b0646b938cec " style=""><div id="fragment-de63a301-1efb-ed58-818d-75266030e147"> <div data-lfr-editable-id="parrafoAccesiblelmde" id="parrafoAccesiblelmde" data-lfr-editable-type="rich-text"><a href="https://www.sanidad.gob.es/areas/alertasEmergenciasSanitarias/alertasActuales/infoDana/home.htm" rel="noopener noreferrer" target="_blank">Aquí</a></div></div><style>.lfr-layout-structure-item-parrafoaccesible a {
+</div></div></div><div class="lfr-layout-structure-item-fcde2fa3-5bb2-f49b-b9f5-1b04301140de lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-a0f4fddd-f531-9255-c02c-e1b586b93272 " style=""><div id="fragment-983feb25-099a-5d43-9cc6-79d49dd04c4b"> <h2 data-lfr-editable-id="tituloAccesiblehejs" data-lfr-editable-type="text">Destacados</h2></div></div><div class="lfr-layout-structure-item-6b276dea-0530-73ac-7922-665fc2d1386e lfr-layout-structure-item-row " style=""><div class="row align-items-lg-center align-items-sm-center align-items-center align-items-md-center flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-12 col-sm-12 col-12 col-md-12 d-flex flex-column"><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-bdc91aaf-c364-4cbb-e3fd-aa30dbbcaa34 " style=""><div id="fragment-8e701817-fd92-1ca0-d5af-46c413df0f11"> <h5 data-lfr-editable-id="tituloAccesiblekouo" data-lfr-editable-type="text">Información de salud pública&nbsp; del Ministerio de Sanidad sobre la DANA para personas voluntarias y población general</h5></div></div><div class="lfr-layout-structure-item-parrafoaccesible lfr-layout-structure-item-a05363f7-7a7f-c9ba-771e-b0646b938cec " style=""><div id="fragment-52d7e322-b6d6-587f-c995-49a42a4783f8"> <div data-lfr-editable-id="parrafoAccesiblelmde" id="parrafoAccesiblelmde" data-lfr-editable-type="rich-text"><a href="https://www.sanidad.gob.es/areas/alertasEmergenciasSanitarias/alertasActuales/infoDana/home.htm" rel="noopener noreferrer" target="_blank">Aquí</a></div></div><style>.lfr-layout-structure-item-parrafoaccesible a {
     text-decoration: underline;
     color: var(--brand-color-1);
-}</style></div><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-00e10253-687b-662a-aa0a-1fc8afb29aec " style=""><div id="fragment-20720bde-9099-179e-8bf0-94975e0851a1"> <div class="secNumGrandes">
+}</style></div><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-00e10253-687b-662a-aa0a-1fc8afb29aec " style=""><div id="fragment-2b958149-174b-3c8f-c38f-781e5ee50554"> <div class="secNumGrandes">
 	<span class="sr-only" tabindex="0" id="textoLectorsfuh" aria-label=""></span>
 	<div data-lfr-editable-id="textoArribasfuh" data-lfr-editable-type="text" class="textoArriba" id="texto1sfuh">Recomendaciones del Ministerio de Sanidad para la población y personas voluntarios sobre las inundaciones causadas por la DANA</div>
 	<div data-lfr-editable-id="textoGrandesfuh" data-lfr-editable-type="text" class="textoGrande" id="textoGrandesfuh"></div>
@@ -7578,12 +7578,12 @@ display: none;
 		border-left: none;
 		border-bottom: 3px solid var(--brand-color-2);
 	}
-}</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-20720bde-9099-179e-8bf0-94975e0851a1'); const fragmentEntryLinkNamespace = 'sfuh'; const fragmentNamespace = 'sfuh'; const layoutMode = 'view';$(() => {
+}</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-2b958149-174b-3c8f-c38f-781e5ee50554'); const fragmentEntryLinkNamespace = 'sfuh'; const fragmentNamespace = 'sfuh'; const layoutMode = 'view';$(() => {
 	let textoSr = $('#texto1' + fragmentNamespace).text() + $('#textoGrande' + fragmentNamespace).text() + $('#texto2' + fragmentNamespace).text(); 
 	$('#textoLector' + fragmentNamespace).text(textoSr);
 	$('#textoLector' + fragmentNamespace).attr('aria-label', textoSr);
-});</script></div></div></div></div></div><div class="lfr-layout-structure-item-b208a07e-f88f-4a88-639f-3bb8f7a8cf8f lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-bb45a0fb-5fa8-27d0-3305-08fc7967d573 " style=""><div id="fragment-b5b33c0b-cc19-a97d-ec86-136a7ba63dca"> <h2 data-lfr-editable-id="tituloAccesiblewtla" data-lfr-editable-type="text">Accesos directos</h2></div></div></div><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-2eb29763-dce0-56e5-e774-52455a87a85d " style=""><div id="fragment-d0563812-fa14-15a3-ed1f-ff2906d81fcc"> <div class="containerSinOverflow">
-	<div><div class="lfr-layout-structure-item-b418d1c8-c2c8-ab38-cb22-aa8712c7e57e lfr-layout-structure-item-container  container-fluid container-fluid-max-xl d-flex flex-row flex-wrap justify-content-between" style=""><a href="https://www.isciii.es/accion-estrategica-en-salud" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-b55d0b5c-b789-169c-317f-75fe2d30e261 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-26ba907d-da3b-e089-31c0-80cd6affabe8 " style=""><div id="fragment-ae0009df-b590-c0ed-7aab-598eff9a19f8"> <div class="enlaceDirecto">
+});</script></div></div></div></div></div><div class="lfr-layout-structure-item-b208a07e-f88f-4a88-639f-3bb8f7a8cf8f lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-bb45a0fb-5fa8-27d0-3305-08fc7967d573 " style=""><div id="fragment-dc9a1eb2-ed74-4c4a-f4fb-e61dff5dbf02"> <h2 data-lfr-editable-id="tituloAccesiblewtla" data-lfr-editable-type="text">Accesos directos</h2></div></div></div><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-2eb29763-dce0-56e5-e774-52455a87a85d " style=""><div id="fragment-a294934c-fadb-50a6-d759-4dc5bbf1a4dc"> <div class="containerSinOverflow">
+	<div><div class="lfr-layout-structure-item-b418d1c8-c2c8-ab38-cb22-aa8712c7e57e lfr-layout-structure-item-container  container-fluid container-fluid-max-xl d-flex flex-row flex-wrap justify-content-between" style=""><a href="https://www.isciii.es/accion-estrategica-en-salud" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-b55d0b5c-b789-169c-317f-75fe2d30e261 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-26ba907d-da3b-e089-31c0-80cd6affabe8 " style=""><div id="fragment-b4fdc004-babc-638b-9a28-1401b335f014"> <div class="enlaceDirecto">
 	<img data-lfr-editable-id="imagenDirectowvmf" data-lfr-editable-type="image" class="mb-3" data-fileentryid="35175" src="/documents/20119/33881/financiaci%C3%B3n.svg/f4097f95-9600-5b9b-5adf-65944950d086?version=1.0&amp;t=1719500727410" alt="Icono mano con euro y bombilla" />
 	<p data-lfr-editable-id="textoDirectowvmf" data-lfr-editable-type="text">Financiación AES</p>
 </div></div><style>.enlaceDirecto {
@@ -7615,22 +7615,22 @@ display: none;
 	.enlaceDirecto {
 		width: 100vw;
 	}
-}</style></div></div></a><a href="https://www.isciii.es/centros" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-a513cb0a-bd60-bf1d-4cfb-cb1190c4cd5c lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-77adb7a1-da58-93b4-ed89-41d89f0fcc2a " style=""><div id="fragment-bfc8f1b5-f662-665d-3456-a92521a1e397"> <div class="enlaceDirecto">
+}</style></div></div></a><a href="https://www.isciii.es/centros" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-a513cb0a-bd60-bf1d-4cfb-cb1190c4cd5c lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-77adb7a1-da58-93b4-ed89-41d89f0fcc2a " style=""><div id="fragment-120067ae-273a-c7f0-693f-e0f4a23ebb9f"> <div class="enlaceDirecto">
 	<img data-lfr-editable-id="imagenDirectonsqq" data-lfr-editable-type="image" class="mb-3" data-fileentryid="35115" src="/documents/20119/33881/centros.svg/e047b261-19b0-96d7-c995-7374106233fb?version=1.0&amp;t=1719500727410" alt="Icono edificio y lupa" />
 	<p data-lfr-editable-id="textoDirectonsqq" data-lfr-editable-type="text">Centros</p>
-</div></div></div></div></a><a href="https://www.isciii.es/internacional" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-412d45d5-48cf-fd27-c067-68a00266a298 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-92bf6df7-ab2b-083d-cb97-63ff9148ac91 " style=""><div id="fragment-1deca416-5f51-cfa5-ac05-9860c02b08a4"> <div class="enlaceDirecto">
+</div></div></div></div></a><a href="https://www.isciii.es/internacional" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-412d45d5-48cf-fd27-c067-68a00266a298 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-92bf6df7-ab2b-083d-cb97-63ff9148ac91 " style=""><div id="fragment-e7ad4206-5790-e27f-222a-cd0faed18187"> <div class="enlaceDirecto">
 	<img data-lfr-editable-id="imagenDirectoitea" data-lfr-editable-type="image" class="mb-3" data-fileentryid="35145" src="/documents/20119/33881/Internacional.svg/b2c51cae-1900-e158-ba0a-b55d5a2de959?version=1.0&amp;t=1719500727410" alt="Icono mundo con ubicaciones" />
 	<p data-lfr-editable-id="textoDirectoitea" data-lfr-editable-type="text">Internacional</p>
-</div></div></div></div></a><a href="https://www.isciii.es/trabaja-isciii" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-010b70ec-52c7-5d21-8a8a-3c1fe7af4913 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-d7862079-3f16-74c2-fca7-574227c9bf14 " style=""><div id="fragment-95b4cac9-2885-1e4d-6337-32e72d4460b2"> <div class="enlaceDirecto">
+</div></div></div></div></a><a href="https://www.isciii.es/trabaja-isciii" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-010b70ec-52c7-5d21-8a8a-3c1fe7af4913 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-d7862079-3f16-74c2-fca7-574227c9bf14 " style=""><div id="fragment-74107964-1430-affc-4b71-471b6f2ae2bd"> <div class="enlaceDirecto">
 	<img data-lfr-editable-id="imagenDirectooqoz" data-lfr-editable-type="image" class="mb-3" data-fileentryid="35139" src="/documents/20119/33881/trabaja+en+el+isciii.svg/f926b17c-5d46-e746-613b-72ed0c6c1b98?version=1.0&amp;t=1719500727410" alt="Icono científico" />
 	<p data-lfr-editable-id="textoDirectooqoz" data-lfr-editable-type="text">Trabaja en el ISCIII</p>
-</div></div></div></div></a><a href="https://www.isciii.es/envio-muestras" style="color: inherit; text-decoration: none;" target="_blank"><div class="lfr-layout-structure-item-dd48f71d-a467-621e-35c0-70a6ead38146 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-a0bc428c-c257-7dac-bd3b-65f7b0eae797 " style=""><div id="fragment-d8ed3d9a-664c-8daf-1791-c8bee6ba005c"> <div class="enlaceDirecto">
+</div></div></div></div></a><a href="https://www.isciii.es/envio-muestras" style="color: inherit; text-decoration: none;" target="_blank"><div class="lfr-layout-structure-item-dd48f71d-a467-621e-35c0-70a6ead38146 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-a0bc428c-c257-7dac-bd3b-65f7b0eae797 " style=""><div id="fragment-e8df7e4a-7eea-1197-ab60-cc396c8c5f11"> <div class="enlaceDirecto">
 	<img data-lfr-editable-id="imagenDirectomdhf" data-lfr-editable-type="image" class="mb-3" data-fileentryid="35133" src="/documents/20119/33881/Env%C3%ADo+de+muestras.svg/029a90af-db84-aa4b-6086-b39584b86ecb?version=1.0&amp;t=1719500727410" alt="Icono probeta" />
 	<p data-lfr-editable-id="textoDirectomdhf" data-lfr-editable-type="text">Envío de muestras</p>
-</div></div></div></div></a><a href="https://cne.isciii.es/servicios/departamento-de-enfermedades-transmisibles/enfermedades-a-z" style="color: inherit; text-decoration: none;" target="_blank"><div class="lfr-layout-structure-item-0af132b5-196a-ffcd-dcd9-9c8e36e069cb lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-74ee58b6-810b-eeb4-5841-4812fab31c5f " style=""><div id="fragment-d6d544c8-a533-2cf4-63c9-28b889291f60"> <div class="enlaceDirecto">
+</div></div></div></div></a><a href="https://cne.isciii.es/servicios/departamento-de-enfermedades-transmisibles/enfermedades-a-z" style="color: inherit; text-decoration: none;" target="_blank"><div class="lfr-layout-structure-item-0af132b5-196a-ffcd-dcd9-9c8e36e069cb lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-74ee58b6-810b-eeb4-5841-4812fab31c5f " style=""><div id="fragment-836c76e8-4336-aba4-d6b3-7894ae6dfdf6"> <div class="enlaceDirecto">
 	<img data-lfr-editable-id="imagenDirectoavdt" data-lfr-editable-type="image" class="mb-3" data-fileentryid="35121" src="/documents/20119/33881/servicios+vigilancia+salud.svg/aa8d9a6b-a000-0c30-869e-930346405fac?version=1.0&amp;t=1719500727410" alt="Icono corazón" />
 	<p data-lfr-editable-id="textoDirectoavdt" data-lfr-editable-type="text">Servicios de vigilancia de la salud</p>
-</div></div></div></div></a><a href="https://www.isciii.es/institutos-investigacion-sanitaria-presentacion" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-5b3bb900-fb7b-13ad-0293-9224d2572ab9 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-909030e0-7bab-4d0e-2d3d-6215b5ba68fd " style=""><div id="fragment-7cde0195-c1c8-c92b-2109-83a3c8173b10"> <div class="enlaceDirecto">
+</div></div></div></div></a><a href="https://www.isciii.es/institutos-investigacion-sanitaria-presentacion" style="color: inherit; text-decoration: none;" target=""><div class="lfr-layout-structure-item-5b3bb900-fb7b-13ad-0293-9224d2572ab9 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-enlacedirectohome lfr-layout-structure-item-909030e0-7bab-4d0e-2d3d-6215b5ba68fd " style=""><div id="fragment-b384ab72-5800-8036-2234-88d3129488b1"> <div class="enlaceDirecto">
 	<img data-lfr-editable-id="imagenDirectoudul" data-lfr-editable-type="image" class="mb-3" data-fileentryid="35127" src="/documents/20119/33881/Instit.+de+invest.+sanit.+acretidatos.svg/641d3c3c-a29d-df0f-706f-b50357d98c0c?version=1.0&amp;t=1719500727410" alt="Icono edificio condecorado" />
 	<p data-lfr-editable-id="textoDirectoudul" data-lfr-editable-type="text">Institutos de Investigación Sanitaria</p>
 </div></div></div></div></a></div></div>
@@ -7638,50 +7638,50 @@ display: none;
 	overflow: hidden !important;
 }</style></div><div class="lfr-layout-structure-item-fb5bb158-f2b4-244f-8873-dadc806c7c5f lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-basic-component-heading lfr-layout-structure-item-e55ad1ab-1c4d-3606-06d9-b4e4ddb345e0 " style=""><div id="fragment-b98c49e7-a368-36aa-6d22-7ed91c91e602"> <h2 class="component-heading mb-0 text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="text">El ISCIII en cifras</h2></div><style>.fragment-heading-text-colored a {
 	color: inherit;
-}</style></div><div class="lfr-layout-structure-item-7cf6128b-df2b-09a5-6162-7dfdbb38c632 lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-d9f96722-43b8-e8c1-8727-64c33f217091 " style=""><div id="fragment-effefd42-a456-f1b3-39c8-4f01589ca075"> <div class="secNumGrandes">
+}</style></div><div class="lfr-layout-structure-item-7cf6128b-df2b-09a5-6162-7dfdbb38c632 lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-d9f96722-43b8-e8c1-8727-64c33f217091 " style=""><div id="fragment-3a95b00e-9013-b210-0004-2b57e30cd682"> <div class="secNumGrandes">
 	<span class="sr-only" tabindex="0" id="textoLectorfnut" aria-label=""></span>
 	<div data-lfr-editable-id="textoArribafnut" data-lfr-editable-type="text" class="textoArriba" id="texto1fnut">Dedicamos más de</div>
 	<div data-lfr-editable-id="textoGrandefnut" data-lfr-editable-type="text" class="textoGrande" id="textoGrandefnut">264</div>
 	<div data-lfr-editable-id="textoAbajofnut" data-lfr-editable-type="rich-text" class="textoAbajo" id="texto2fnut">millones en financiar la I+D+I en el Sistema<br />
 Nacional de Salud</div>
-</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-effefd42-a456-f1b3-39c8-4f01589ca075'); const fragmentEntryLinkNamespace = 'fnut'; const fragmentNamespace = 'fnut'; const layoutMode = 'view';$(() => {
+</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-3a95b00e-9013-b210-0004-2b57e30cd682'); const fragmentEntryLinkNamespace = 'fnut'; const fragmentNamespace = 'fnut'; const layoutMode = 'view';$(() => {
 	let textoSr = $('#texto1' + fragmentNamespace).text() + $('#textoGrande' + fragmentNamespace).text() + $('#texto2' + fragmentNamespace).text(); 
 	$('#textoLector' + fragmentNamespace).text(textoSr);
 	$('#textoLector' + fragmentNamespace).attr('aria-label', textoSr);
-});</script></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-c7b838e7-3e6a-4ec2-ee16-a2401f5c03b1 " style=""><div id="fragment-405360a0-d12f-1ca5-8d36-af4776abb1d9"> <div class="secNumGrandes">
+});</script></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-c7b838e7-3e6a-4ec2-ee16-a2401f5c03b1 " style=""><div id="fragment-08918cb3-9e4f-246b-cd78-f5d20b686c6f"> <div class="secNumGrandes">
 	<span class="sr-only" tabindex="0" id="textoLectorxeet" aria-label=""></span>
 	<div data-lfr-editable-id="textoArribaxeet" data-lfr-editable-type="text" class="textoArriba" id="texto1xeet">Trabajamos con</div>
 	<div data-lfr-editable-id="textoGrandexeet" data-lfr-editable-type="text" class="textoGrande" id="textoGrandexeet">27</div>
 	<div data-lfr-editable-id="textoAbajoxeet" data-lfr-editable-type="rich-text" class="textoAbajo" id="texto2xeet">Programas de Vigilancia Microbiológica</div>
-</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-405360a0-d12f-1ca5-8d36-af4776abb1d9'); const fragmentEntryLinkNamespace = 'xeet'; const fragmentNamespace = 'xeet'; const layoutMode = 'view';$(() => {
+</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-08918cb3-9e4f-246b-cd78-f5d20b686c6f'); const fragmentEntryLinkNamespace = 'xeet'; const fragmentNamespace = 'xeet'; const layoutMode = 'view';$(() => {
 	let textoSr = $('#texto1' + fragmentNamespace).text() + $('#textoGrande' + fragmentNamespace).text() + $('#texto2' + fragmentNamespace).text(); 
 	$('#textoLector' + fragmentNamespace).text(textoSr);
 	$('#textoLector' + fragmentNamespace).attr('aria-label', textoSr);
-});</script></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-5aee9c58-8ef7-bfd2-eb3a-8e1c20c207fc " style=""><div id="fragment-5c816b60-887b-8755-1306-8b300bef204a"> <div class="secNumGrandes">
+});</script></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-5aee9c58-8ef7-bfd2-eb3a-8e1c20c207fc " style=""><div id="fragment-5a50e82c-3773-bcb6-9cb9-5e6dda08f637"> <div class="secNumGrandes">
 	<span class="sr-only" tabindex="0" id="textoLectoroeoa" aria-label=""></span>
 	<div data-lfr-editable-id="textoArribaoeoa" data-lfr-editable-type="text" class="textoArriba" id="texto1oeoa">Tenemos acreditados</div>
 	<div data-lfr-editable-id="textoGrandeoeoa" data-lfr-editable-type="text" class="textoGrande" id="textoGrandeoeoa">35</div>
 	<div data-lfr-editable-id="textoAbajooeoa" data-lfr-editable-type="rich-text" class="textoAbajo" id="texto2oeoa"><p>Institutos de Investigación<br />
 Sanitaria (IIS)</p>
 </div>
-</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-5c816b60-887b-8755-1306-8b300bef204a'); const fragmentEntryLinkNamespace = 'oeoa'; const fragmentNamespace = 'oeoa'; const layoutMode = 'view';$(() => {
+</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-5a50e82c-3773-bcb6-9cb9-5e6dda08f637'); const fragmentEntryLinkNamespace = 'oeoa'; const fragmentNamespace = 'oeoa'; const layoutMode = 'view';$(() => {
 	let textoSr = $('#texto1' + fragmentNamespace).text() + $('#textoGrande' + fragmentNamespace).text() + $('#texto2' + fragmentNamespace).text(); 
 	$('#textoLector' + fragmentNamespace).text(textoSr);
 	$('#textoLector' + fragmentNamespace).attr('aria-label', textoSr);
-});</script></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-b23149e6-57a9-ba33-54eb-b3c05d88a4fe " style=""><div id="fragment-72264efb-b343-7dc9-aad3-6810174cfae2"> <div class="secNumGrandes">
+});</script></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secnumerosgrandes lfr-layout-structure-item-b23149e6-57a9-ba33-54eb-b3c05d88a4fe " style=""><div id="fragment-86ab1d9c-70ed-5514-650d-be064132f930"> <div class="secNumGrandes">
 	<span class="sr-only" tabindex="0" id="textoLectorjgav" aria-label=""></span>
 	<div data-lfr-editable-id="textoArribajgav" data-lfr-editable-type="text" class="textoArriba" id="texto1jgav">Participamos en</div>
 	<div data-lfr-editable-id="textoGrandejgav" data-lfr-editable-type="text" class="textoGrande" id="textoGrandejgav">8</div>
 	<div data-lfr-editable-id="textoAbajojgav" data-lfr-editable-type="rich-text" class="textoAbajo" id="texto2jgav"><p>Infraestructuras Europeas de Investigación</p>
 </div>
-</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-72264efb-b343-7dc9-aad3-6810174cfae2'); const fragmentEntryLinkNamespace = 'jgav'; const fragmentNamespace = 'jgav'; const layoutMode = 'view';$(() => {
+</div></div><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-86ab1d9c-70ed-5514-650d-be064132f930'); const fragmentEntryLinkNamespace = 'jgav'; const fragmentNamespace = 'jgav'; const layoutMode = 'view';$(() => {
 	let textoSr = $('#texto1' + fragmentNamespace).text() + $('#textoGrande' + fragmentNamespace).text() + $('#texto2' + fragmentNamespace).text(); 
 	$('#textoLector' + fragmentNamespace).text(textoSr);
 	$('#textoLector' + fragmentNamespace).attr('aria-label', textoSr);
 });</script></div></div></div></div></div><div class="lfr-layout-structure-item-17a7a4c4-af27-db5b-adcf-ec7aaeff7232 lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-basic-component-paragraph lfr-layout-structure-item-bac273dc-0169-5acc-8adb-7502f225a93b " style=""><div id="fragment-079a3e38-d1af-42a7-3be2-15851470c278"> <div class="clearfix component-paragraph text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="rich-text"><h2 style="text-align:center">Tu salud a través&nbsp;<strong><span class="text-primary">de la ciencia</span></strong></h2>
 </div></div><style>.component-paragraph img {
 	max-width: 100%;
-}</style></div><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-d7db0053-3ff3-96f8-280a-862dcabcb325 " style=""><div id="fragment-6cbf88a5-1a2b-ec12-8c5b-f0166df53015">
+}</style></div><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-d7db0053-3ff3-96f8-280a-862dcabcb325 " style=""><div id="fragment-4ccf9edc-6fb2-9f6b-46c4-fdfa63f12f12">
 
 
 
@@ -8267,9 +8267,9 @@ Sanitaria (IIS)</p>
 
 
 
-</div></div></div><div class="lfr-layout-structure-item-5636a298-d73b-5833-85c7-5237dd12351a lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-1a029d3f-5522-3295-99fa-96ad1c4e5a36 " style=""><div id="fragment-2a133ef0-37f6-7b0c-fd67-318a312d2e1e"> <div class="containerSinOverflow">
+</div></div></div><div class="lfr-layout-structure-item-5636a298-d73b-5833-85c7-5237dd12351a lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-1a029d3f-5522-3295-99fa-96ad1c4e5a36 " style=""><div id="fragment-9f7169f4-e150-30c6-ea7d-4f2385ad8b91"> <div class="containerSinOverflow">
 	<div><div class="lfr-layout-structure-item-basic-component-paragraph lfr-layout-structure-item-f57b5203-4eb0-6dfb-5ad3-77212b023ba7 " style=""><div id="fragment-9e570124-3104-3bc3-841b-0e5326b8e62c"> <div class="clearfix component-paragraph text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="rich-text"><h2>Proyectos financiados por el <span class="text-primary"><strong>ISCIII</strong></span></h2>
-</div></div></div><div class="lfr-layout-structure-item-d6e0985c-ceaf-a246-517f-c5c7af7bbc72 lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-9 col-sm-12 col-12 col-md-9"><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-264e3b6e-0f47-c68f-ba91-67e6c6adc590 " style=""><div id="fragment-49734f05-5dd7-81a1-634e-5ec338606672">
+</div></div></div><div class="lfr-layout-structure-item-d6e0985c-ceaf-a246-517f-c5c7af7bbc72 lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-9 col-sm-12 col-12 col-md-9"><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-264e3b6e-0f47-c68f-ba91-67e6c6adc590 " style=""><div id="fragment-212b7a6b-4c11-01ef-c3cb-ea7e4e6823af">
 
 
 
@@ -9184,9 +9184,9 @@ Más información:
 
 
 
-</div></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secvermas lfr-layout-structure-item-208df334-a777-9fba-a0bc-e2749cb2f0e0 " style=""><div id="fragment-2085a775-672c-73dd-cc3c-fc1caa38c24b"> <div class="secVerMas text-center" style="height: 335px;">
+</div></div></div><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secvermas lfr-layout-structure-item-208df334-a777-9fba-a0bc-e2749cb2f0e0 " style=""><div id="fragment-145cefd7-f64d-cc3d-2dcf-285ac9fa27ec"> <div class="secVerMas text-center" style="height: 335px;">
 	<div><div class="lfr-layout-structure-item-basic-component-paragraph lfr-layout-structure-item-66c0f32b-7db9-7be7-5cbd-f0cfca2843a0 " style=""><div id="fragment-eab5eb87-06ab-5209-821b-0818bfbfdb9f"> <div class="clearfix component-paragraph text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="rich-text"><h3 style="text-align:right">¿Quieres conocer más proyectos financiados por el <span class="text-primary"><strong>ISCIII</strong></span>?</h3>
-</div></div></div><div class="lfr-layout-structure-item-botonprincipalredondoisciii lfr-layout-structure-item-ee44acb0-32d7-93fe-50b9-7638b3893735 " style=""><div id="fragment-06fdacb7-dd0b-4717-4927-ca6da2d006a3"> <a class="botonPrincipalRedondo m-auto" data-lfr-editable-id="enlaceBotonwkey" data-lfr-editable-type="link" href="/financiacion/proyectos-financiados">Ver más financiados</a></div><style>.botonPrincipalRedondo {
+</div></div></div><div class="lfr-layout-structure-item-botonprincipalredondoisciii lfr-layout-structure-item-ee44acb0-32d7-93fe-50b9-7638b3893735 " style=""><div id="fragment-e6983135-0a0a-d02c-6d44-43b5fc6675a5"> <a class="botonPrincipalRedondo m-auto" data-lfr-editable-id="enlaceBotonwkey" data-lfr-editable-type="link" href="/financiacion/proyectos-financiados">Ver más financiados</a></div><style>.botonPrincipalRedondo {
 	color: white;
 	border: 1px solid var(--brand-color-1);
 	border-radius: 25px;
@@ -9238,7 +9238,7 @@ Más información:
   }
 
 }</style></div></div></div></div></div>
-</div></div></div></div><div class="lfr-layout-structure-item-58ad70d6-e2ef-0c1e-2e88-7711067946c6 lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-65ffba41-374a-278c-7f0c-5e0e7b9756f2 " style=""><div id="fragment-5827cee1-b216-5359-cdf1-19317c4b19c3"> <h3 data-lfr-editable-id="tituloAccesibleocer" data-lfr-editable-type="text">¿Necesitas financiar tu investigación?</h3></div></div><div class="lfr-layout-structure-item-parrafoaccesible lfr-layout-structure-item-f7574c6d-37d5-ca23-daf9-d45533a1ae51 " style=""><div id="fragment-f2899d85-7b22-57d6-b207-015a38ff04ab"> <div data-lfr-editable-id="parrafoAccesibleabxb" id="parrafoAccesibleabxb" data-lfr-editable-type="rich-text">Infórmate aquí sobre nuestras financiaciones, trámites y plazos</div></div></div><div class="lfr-layout-structure-item-botonredondoisciii lfr-layout-structure-item-65907852-eace-326c-dd5f-5e42f8d81422 " style=""><div id="fragment-70c59423-07ec-d2be-7c53-ecdfc20046fc"> <a class="botonRedondo m-auto" data-lfr-editable-id="enlaceBotonvnuk" data-lfr-editable-type="link" href="/financiacion">Ver financiaciones</a></div><style>.botonRedondo {
+</div></div></div></div><div class="lfr-layout-structure-item-58ad70d6-e2ef-0c1e-2e88-7711067946c6 lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-titulo-accesible lfr-layout-structure-item-65ffba41-374a-278c-7f0c-5e0e7b9756f2 " style=""><div id="fragment-91ed7f1c-cd3a-a561-4a00-6f9dc8f45fac"> <h3 data-lfr-editable-id="tituloAccesibleocer" data-lfr-editable-type="text">¿Necesitas financiar tu investigación?</h3></div></div><div class="lfr-layout-structure-item-parrafoaccesible lfr-layout-structure-item-f7574c6d-37d5-ca23-daf9-d45533a1ae51 " style=""><div id="fragment-2c00dadc-07b8-74c0-edef-761d6c3e2a01"> <div data-lfr-editable-id="parrafoAccesibleabxb" id="parrafoAccesibleabxb" data-lfr-editable-type="rich-text">Infórmate aquí sobre nuestras financiaciones, trámites y plazos</div></div></div><div class="lfr-layout-structure-item-botonredondoisciii lfr-layout-structure-item-65907852-eace-326c-dd5f-5e42f8d81422 " style=""><div id="fragment-c0d99f9b-58bc-47a7-94d5-04c84ee6e66a"> <a class="botonRedondo m-auto" data-lfr-editable-id="enlaceBotonvnuk" data-lfr-editable-type="link" href="/financiacion">Ver financiaciones</a></div><style>.botonRedondo {
 	background-color: white;
 	border: 1px solid var(--brand-color-1);
 	border-radius: 25px;
@@ -9252,9 +9252,9 @@ Más información:
 	text-decoration: none;
 	opacity: 0.5;
 }</style></div></div><div class="lfr-layout-structure-item-c292fd8f-d7c9-8e67-f02f-6f027a7911db lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-basic-component-paragraph lfr-layout-structure-item-36106a5d-8a92-7dde-899c-1c3f01ce1eaf " style=""><div id="fragment-0b797932-addc-21ce-c377-31f1a9cf54b0"> <div class="clearfix component-paragraph text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="rich-text"><h2>Agenda <span class="text-primary"><strong>ISCIII</strong></span></h2>
-</div></div></div><div class="lfr-layout-structure-item-7b8653ad-a44f-c192-2321-94f84e18fb5a lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secvermas lfr-layout-structure-item-74fe0706-5e98-68f4-4c37-6e20a8f10c6b " style=""><div id="fragment-3d558e93-5f73-60ba-cc2d-f55c2b5d8e86"> <div class="secVerMas text-center" style="height: 265px;">
+</div></div></div><div class="lfr-layout-structure-item-7b8653ad-a44f-c192-2321-94f84e18fb5a lfr-layout-structure-item-row " style=""><div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-3 col-sm-12 col-12 col-md-3"><div class="lfr-layout-structure-item-secvermas lfr-layout-structure-item-74fe0706-5e98-68f4-4c37-6e20a8f10c6b " style=""><div id="fragment-269cbdd6-a8e8-6df9-6658-ac6f41468ef7"> <div class="secVerMas text-center" style="height: 265px;">
 	<div><div class="lfr-layout-structure-item-basic-component-paragraph lfr-layout-structure-item-814d2a4f-c737-7544-62f9-74371832e11d " style=""><div id="fragment-53a03dc8-cc49-c7d2-606e-954130c1d5db"> <div class="clearfix component-paragraph text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="rich-text"><h3>Próximos eventos</h3>
-</div></div></div><div class="lfr-layout-structure-item-isciii-boton-principal lfr-layout-structure-item-5cd1d63a-fbf2-4b02-9857-587468055138 " style=""><div id="fragment-db58465e-424e-087d-eaf4-54d67243da97"> <a class="botonPrincipalRedondo m-auto" data-lfr-editable-id="enlaceBotoneese" data-lfr-editable-type="link" href="/agenda">Ver más eventos</a></div><style>.botonPrincipalRedondo {
+</div></div></div><div class="lfr-layout-structure-item-isciii-boton-principal lfr-layout-structure-item-5cd1d63a-fbf2-4b02-9857-587468055138 " style=""><div id="fragment-89186c36-3b93-b328-0b57-296aa7135644"> <a class="botonPrincipalRedondo m-auto" data-lfr-editable-id="enlaceBotoneese" data-lfr-editable-type="link" href="/agenda">Ver más eventos</a></div><style>.botonPrincipalRedondo {
 	color: white;
 	border: 1px solid var(--brand-color-1);
 	border-radius: 25px;
@@ -9276,7 +9276,7 @@ Más información:
 		margin-top: 20px!important;
 	}
 }</style></div></div>
-</div></div></div></div><div class="col col-lg-9 col-sm-12 col-12 col-md-9"><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-da2ac5a1-7ef1-2349-5ec6-fbe32a076815 " style=""><div id="fragment-a91d0730-777e-0742-64f9-5040dcf7ffb3">
+</div></div></div></div><div class="col col-lg-9 col-sm-12 col-12 col-md-9"><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-da2ac5a1-7ef1-2349-5ec6-fbe32a076815 " style=""><div id="fragment-188d67fc-4b7b-ca25-8f8f-a11d15ff794b">
 
 
 
@@ -10031,9 +10031,9 @@ Más información:
 
 
 
-</div></div></div></div></div></div><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-82298190-b65a-f3aa-75f6-1d77777a1602 " style=""><div id="fragment-4b3bc7a8-8922-458d-7e15-df1103fb00bd"> <div class="containerSinOverflow">
+</div></div></div></div></div></div><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-82298190-b65a-f3aa-75f6-1d77777a1602 " style=""><div id="fragment-e9ffd360-1ab1-a474-b88a-2b72471bc3c4"> <div class="containerSinOverflow">
 	<div><div class="lfr-layout-structure-item-basic-component-paragraph lfr-layout-structure-item-1c7c7ed7-66ec-e019-6423-9a397a400175 " style=""><div id="fragment-20b2f910-2347-b11e-6018-ed587b04471c"> <div class="clearfix component-paragraph text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="rich-text"><h2>Actualidad del <span class="text-primary"><strong>ISCIII</strong></span></h2>
-</div></div></div><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-5d216efb-e6ee-89da-d606-3035576f9cec conf-simple" style=""><div id="fragment-f9412f49-0604-89b2-5bd9-9ee6f5fed05a">
+</div></div></div><div class="lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet lfr-layout-structure-item-5d216efb-e6ee-89da-d606-3035576f9cec conf-simple" style=""><div id="fragment-dfcc121a-79c4-1d5c-7893-8b5acd972aa1">
 
 
 
@@ -11419,7 +11419,7 @@ function initSlider(widthItem, widthButton) {
 
 
 </div></div></div>
-</div></div></div><div class="lfr-layout-structure-item-isciii-boton-principal lfr-layout-structure-item-7a56aef0-f4bc-687c-1c13-eaa81f1ce8ea " style=""><div id="fragment-6c5d403a-baf1-5f27-6e83-48c25fbd71c4"> <a class="botonPrincipalRedondo m-auto" data-lfr-editable-id="enlaceBotonomis" data-lfr-editable-type="link" href="/noticias">Ver más actualidad</a></div></div><main class="lfr-layout-structure-item-2621a640-7794-0ba5-8f89-8ca6bdb36737 lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-b03e9509-e9cb-ff84-c44f-19a0f95dd6fc " style=""><div id="fragment-f66f3c46-3768-225f-b083-18ba8aa38094"> <div class="containerSinOverflow">
+</div></div></div><div class="lfr-layout-structure-item-isciii-boton-principal lfr-layout-structure-item-7a56aef0-f4bc-687c-1c13-eaa81f1ce8ea " style=""><div id="fragment-5900253e-5d4d-1778-a7a3-aea2b200361b"> <a class="botonPrincipalRedondo m-auto" data-lfr-editable-id="enlaceBotonomis" data-lfr-editable-type="link" href="/noticias">Ver más actualidad</a></div></div><main class="lfr-layout-structure-item-2621a640-7794-0ba5-8f89-8ca6bdb36737 lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-isciii-contenedor-sin-overflow lfr-layout-structure-item-b03e9509-e9cb-ff84-c44f-19a0f95dd6fc " style=""><div id="fragment-b40c6e3b-f425-ca73-09bd-09d6258e8a49"> <div class="containerSinOverflow">
 	<div><div class="lfr-layout-structure-item-basic-component-paragraph lfr-layout-structure-item-9213fdc5-0e3a-843f-5f32-79da34df5f03 " style=""><div id="fragment-afdade09-b4d6-2ae7-f500-affd784dc7ef"> <div class="clearfix component-paragraph text-break" data-lfr-editable-id="element-text" data-lfr-editable-type="rich-text"><h2 style="text-align:center">Enlaces <span class="text-primary"><strong>de interés</strong></span></h2>
 </div></div></div><div class="lfr-layout-structure-item-6a8c62e8-1e0a-c13a-42bb-dc7035bd441c lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-7b73d4a6-e9db-b861-f1cd-08cb678c881f lfr-layout-structure-item-row " style=""><div class="row align-items-lg-center align-items-sm-center align-items-center align-items-md-center flex-lg-row flex-sm-row flex-row flex-md-row"><div class="col col-lg-4 col-sm-12 col-12 col-md-4 d-flex flex-column"><div class="lfr-layout-structure-item-basic-component-image lfr-layout-structure-item-0a0ab6b3-c4d5-003a-3109-33eae4a69e19 " style=""><div id="fragment-583120d5-e8ba-cdcd-0522-17446b137f08"> <div class="component-image overflow-hidden">
 	<a target="_blank" href="https://www.mdsocialesa2030.gob.es/agenda2030/index.htm"><img alt="Enlace de interés: Agenda 2030" class="w-100" data-lfr-editable-id="image-square" data-lfr-editable-type="image" src="/documents/20119/915929/image+31.png/770eac81-9ed8-377d-e49f-ddcd5e232add?version=1.0&amp;t=1725871294034" data-fileentryid="34193" /></a>
@@ -11437,7 +11437,7 @@ function initSlider(widthItem, widthButton) {
 			<a class="btn btn-nm btn-link" data-lfr-editable-id="link" data-lfr-editable-type="link" href="/servicios/enlaces-interes" id="fragment-isav-link">Mostrar todos los enlaces de interés</a>
 		</div>
 </div></div></div>
-</div></div></div></main><div class="lfr-layout-structure-item-footerisciii lfr-layout-structure-item-501d9a45-3bd2-ea38-0be0-096cf04a4060 " style=""><div id="fragment-7a234d45-eb74-a433-a02e-1ddb81c0b589"> <footer class="footerIsciii">
+</div></div></div></main><div class="lfr-layout-structure-item-footerisciii lfr-layout-structure-item-501d9a45-3bd2-ea38-0be0-096cf04a4060 " style=""><div id="fragment-f6e8420e-0c2e-d01b-5aa6-db2fa810dcbe"> <footer class="footerIsciii">
 	<div class="contLogosFondoAzul">
 		<img data-lfr-editable-id="logoAzul1" data-lfr-editable-type="image" tabindex="0" data-fileentryid="38650" src="/documents/d/guest/logo-cofinanciado-png?imagePreview=1" alt="Logo de la Unión Europea 'Cofinanciado por Unión Europea'" />
 		<img data-lfr-editable-id="logoAzul2" data-lfr-editable-type="image" tabindex="0" data-fileentryid="38658" src="/documents/d/guest/group-png?imagePreview=1" alt="Logo del Ministerio de Ciencia, Innovación e Universidades" />
@@ -11908,7 +11908,7 @@ function initSlider(widthItem, widthButton) {
 		}
 }
 	
-}</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-7a234d45-eb74-a433-a02e-1ddb81c0b589'); const fragmentEntryLinkNamespace = 'gaug'; const fragmentNamespace = 'gaug'; const layoutMode = 'view';$(() => {
+}</style><script type="module">const configuration = {}; const fragmentElement = document.querySelector('#fragment-f6e8420e-0c2e-d01b-5aa6-db2fa810dcbe'); const fragmentEntryLinkNamespace = 'gaug'; const fragmentNamespace = 'gaug'; const layoutMode = 'view';$(() => {
 	function fijarPie() {
 		let altura = $('#main-content').height() - $('footer').height();
 		let alturaVh = 100 * altura / $(window).height();
@@ -12389,7 +12389,7 @@ function initSlider(widthItem, widthButton) {
 			};
 
 			var manageCollaboratorsURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://www.isciii.es/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=uYRqGUfa',
+				'https://www.isciii.es/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=bgTnT35n',
 				manageCollaboratorsParameters
 			);
 
@@ -12406,7 +12406,7 @@ function initSlider(widthItem, widthButton) {
 			};
 
 			var sharingURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://www.isciii.es/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=M7Tap3XB',
+				'https://www.isciii.es/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=dYBtynRk',
 				sharingParameters
 			);
 
