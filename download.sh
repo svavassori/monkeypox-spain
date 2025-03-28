@@ -9,7 +9,7 @@ links_pdfs=$(wget --no-verbose --output-document=- "${base_url}/home.htm" | grep
 guides_pdfs=($(wget --no-verbose --output-document=- "${base_url}/guiaDeManejo.htm" | grep --only-matching '"docs/[^"]\+\.pdf"' | tr -d '"'))
 vaccines_pdfs=($(wget --no-verbose --output-document=- "${vaccines_url}/home.htm" | grep --only-matching 'href="[^"]\+.pdf"' | sed 's/href=//g' | tr -d '"'))
 
-opts="--no-verbose --timestamping --content-disposition --directory-prefix="
+opts="--no-check-certificate --no-verbose --timestamping --content-disposition --directory-prefix="
 
 wget ${opts}documentos/evaluación-rápida-riesgo "${base_url}/$(echo "${links_pdfs}" | grep "_ERR_Monkeypox")"
 wget ${opts}documentos/informes "${base_url}/$(echo "${links_pdfs}" | grep "Informe_de_situacion")"
